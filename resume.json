@@ -1,0 +1,352 @@
+{
+  "basics": {
+    "name": "Nicolas Chauvin",
+    "label": "Computer Engineer & Polyvalent Technician",
+    "picture": "https://media.licdn.com/media/p/3/005/078/348/29a37f0.jpg",
+    "email": "chauvin.nico@gmail.com",
+    "phone": "",
+    "website": "",
+    "summary": "Young man from Paris suburb. I love human technologies, from fire to internet, passing through the invention of wheel, metals manufacture, engines, electricty, computing machines, cars, planes, spacecrafts... I would love to dedicate a part of my life to contribute, to construct and improve our technology. Everyday Archlinux user, I am a Linux lover, and I try to share and improve as I can the open-source ressources we have at our disposal. Let's now talk a bit about a dream. When I was young I would have loved to be an aircraft or a racing car pilot, but it was not possible; that's why I still have this taste for this machines and thrills and spills. So now I let you imagine what looks like all this passions and stuffs mixed together... Merry mess.",
+    "location": {
+      "address": "",
+      "postalCode": "78610",
+      "city": "Le Perray en Yvelines",
+      "countryCode": "FR",
+      "region": "Ile de france"
+    },
+    "profiles": [
+      {
+        "network": "Github",
+        "username": "Grenadingue",
+        "url": "https://github.com/Grenadingue"
+      },
+      {
+        "network": "SoundCloud",
+        "username": "insaNico",
+        "url": "https://soundcloud.com/insanico"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "Nicolas Chauvin",
+        "url": "https://fr.linkedin.com/in/nicolas-chauvin-12226063"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "SAM-Solution",
+      "position": "Lead Developer",
+      "website": "http://eip.epitech.eu/2017/samsolution",
+      "startDate": "2015-02-01",
+      "endDate": "2017-07-01",
+      "summary": "",
+      "highlights": ["EIP - Epitech Innovative Project"]
+    },
+    {
+      "company": "Creatiwity",
+      "position": "Software Developer",
+      "website": "https://creatiwity.net",
+      "startDate": "2015-04-01",
+      "endDate": "2015-07-15",
+      "summary": "",
+      "highlights": []
+    },
+    {
+      "company": "Playy.tv Ltd.",
+      "position": "Software Developer",
+      "website": "",
+      "startDate": "2014-09-01",
+      "endDate": "2015-01-01",
+      "summary": "",
+      "highlights": []
+    },
+    {
+      "company": "Playy.tv Ltd.",
+      "position": "Software Developer",
+      "website": "",
+      "startDate": "2013-09-01",
+      "endDate": "2013-12-01",
+      "summary": "",
+      "highlights": []
+    },
+    {
+      "company": "0-one",
+      "position": "Automotive Mechanic Technician",
+      "website": "http://www.0one.fr",
+      "startDate": "2011-06-01",
+      "endDate": "2012-07-30",
+      "summary": "",
+      "highlights": []
+    },
+    {
+      "company": "Garage de Maison Blanche",
+      "position": "Automotive Mechanic Technician",
+      "website": "",
+      "startDate": "2011-03-01",
+      "endDate": "2012-04-01",
+      "summary": "",
+      "highlights": []
+    },
+    {
+      "company": "Toyota Auto-Arita",
+      "position": "Automotive Mechanic Technician",
+      "website": "http://www.autoarita.fi",
+      "startDate": "2011-02-01",
+      "endDate": "2012-03-01",
+      "summary": "baz",
+      "highlights": []
+    },
+    {
+      "company": "Renault Garage DMB",
+      "position": "Automotive Mechanic Technician",
+      "website": "",
+      "startDate": "2009-06-01",
+      "endDate": "2009-07-01",
+      "summary": "",
+      "highlights": ["", ""]
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "EPITECH - European Institute of Technology",
+      "area": "Information Technology Expertise",
+      "studyType": "[M2] Master 2",
+      "startDate": "2015-09-01",
+      "endDate": "2017-07-01",
+      "gpa": "",
+      "courses": [
+        "EIP - Epitech Innovative Project"
+      ]
+    },
+    {
+      "institution": "MIT - Manipal Institute of Technology",
+      "area": "Computer Science & Engineering",
+      "studyType": "[M1] Master",
+      "startDate": "2015-08-01",
+      "endDate": "2016-05-15",
+      "gpa": "",
+      "courses": [
+        "International Exchange Program",
+        "10 months in India"
+      ]
+    },
+    {
+      "institution": "EPITECH - European Institute of Technology",
+      "area": "Information Technology",
+      "studyType": "[B.TECH] Bachelor",
+      "startDate": "2012-09-01",
+      "endDate": "2015-07-01",
+      "gpa": "",
+      "courses": [
+        "3 weeks intensive Unix and C lab seminar",
+        "3 weeks intensive C++ lab seminar",
+        "Elementary programming",
+        "Unix advanced system programming",
+        "x86_64 assembly",
+        "Hacking and security basics",
+        "Networking",
+        "Graphical user interfaces",
+        "SQL",
+        "Network administration",
+        "System administration",
+        "English"
+      ]
+    },
+    {
+      "institution": "GARAC - National School of Automotive Professions",
+      "area": "Automotive Mechanics and Technology",
+      "studyType": "[BAC PRO] Baccalauréat",
+      "startDate": "2010-09-01",
+      "endDate": "2012-07-01",
+      "gpa": "",
+      "courses": [
+        "Automotive workshop",
+        "Automotive technology",
+        "Functional and structural analysis",
+        "Mathematics",
+        "Physics",
+        "English",
+        "French"
+      ]
+    },
+    {
+      "institution": "GARAC - National School of Automotive Professions",
+      "area": "Automotive Mechanics and Technology",
+      "studyType": "[BEP] National Vocational Qualification",
+      "startDate": "2008-09-01",
+      "endDate": "2010-07-01",
+      "gpa": "",
+      "courses": []
+    }
+  ],
+  "awards": [
+    {
+      "title": "\"Noise\" Contest",
+      "date": "2011-01-15",
+      "awarder": "GARAC - National School of Automotive Professions",
+      "summary": "An individual school contest between four classrooms, around noise and sound, based on physics, mathematics, french language, natural sciences, and practical measuring processes. 1st price."
+    }
+  ],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Software Developement",
+      "level": "",
+      "keywords": [
+        "C",
+        "C++",
+        "Qt",
+        "QML",
+        "SDL",
+        "Swift",
+        "Node.js",
+        "Python",
+        "SQL",
+        "MongoDB",
+        "Bash",
+        "Git",
+        "Networking",
+        "Security",
+        "GUI"
+      ]
+    },
+    {
+      "name": "System/Network Administration",
+      "level": "",
+      "keywords": [
+        "Linux / Unix",
+        "Windows",
+        "Mac OS X",
+        "Shell scripting",
+        "Web Servers",
+        "Databases",
+        "DNS",
+        "SSH",
+        "Git",
+        "Security"
+      ]
+    },
+    {
+      "name": "Software Architecture",
+      "level": "",
+      "keywords": [
+        "Patterns design",
+        "From scratch",
+        "From existing",
+        "MVC",
+        "VIPER",
+        "Micro-kernel",
+        "UML",
+        "Class diagrams",
+        "Sequence diagrams"
+      ]
+    },
+    {
+      "name": "Electronics",
+      "level": "",
+      "keywords": [
+        "Tin Welding",
+        "Diagram Reading/Writting",
+        "Simple Circuit Design",
+        "Prototyping"
+      ]
+    },
+    {
+      "name": "Automotive Mechanics",
+      "level": "",
+      "keywords": [
+        "Failure research",
+        "Maintenance",
+        "Restauration",
+        "Preparation",
+        "Petrol/Diesel engines",
+        "Electrical components",
+        "OBD Diagnotic tools"
+      ]
+    },
+    {
+      "name": "Web Developement",
+      "level": "",
+      "keywords": [
+        "Node.js",
+        "Php",
+        "Javascript",
+        "Html",
+        "Css"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "French",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Fluent"
+    },
+    {
+      "language": "Spanish",
+      "fluency": "Begginer"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Cooking",
+      "keywords": [
+        "Eating",
+        "Cheese",
+        "Cheeeese",
+        "Cheese",
+        "World cooking"
+      ]
+    },
+    {
+      "name": "Politics",
+      "keywords": [
+        "Education",
+        "Human rights",
+        "Civical rights"
+      ]
+    },
+    {
+      "name": "Technological Watch",
+      "keywords": [
+        "Inter-planetary distributed systems",
+        "Open-source world",
+        "Automotive technologies"
+      ]
+    },
+    {
+      "name": "Human languages",
+      "keywords": [
+        "Etymology",
+        "Cross-culture dependancies",
+        "Mathematics",
+        "Programming languages",
+        "Street-art",
+        "Graffiti"
+      ]
+    },
+    {
+      "name": "Sport",
+      "keywords": [
+        "Mountain bike",
+        "Karting",
+        "Climb"
+      ]
+    },
+    {
+      "name": "Motor Races",
+      "keywords": [
+        "Les 24h du Mans",
+        "WRC",
+        "Endurance",
+        "Rallye",
+        "Gaming simulation"
+      ]
+    }
+  ],
+  "references": []
+}
