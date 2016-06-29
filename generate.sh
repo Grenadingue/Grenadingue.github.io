@@ -13,4 +13,11 @@ fi
 
 resume export resume.html --theme stackoverflow
 
+if [ $? == 0 ]; then
+    mv resume.html index.html
+    echo "resume.html -> index.html"
+else
+    echo "Error: Web page rendering failure" >&2
+fi
+
 exit $?
