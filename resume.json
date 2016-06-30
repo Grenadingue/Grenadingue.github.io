@@ -39,8 +39,8 @@
       "website": "http://eip.epitech.eu/2017/samsolution",
       "startDate": "2015-02-01",
       "endDate": "2017-07-01",
-      "summary": "",
-      "highlights": ["EIP - Epitech Innovative Project"]
+      "summary": "Lead developer, technical referent, software developer, and member of the human ressources management team. I was a member of a nine students group during a project called the Epitech Innovative Project; the final school project of my Master degree.",
+      "highlights": ["EIP", "Epitech Innovative Project", "Node.js"]
     },
     {
       "company": "Creatiwity",
@@ -49,7 +49,7 @@
       "startDate": "2015-04-01",
       "endDate": "2015-07-15",
       "summary": "",
-      "highlights": []
+      "highlights": ["iOS", "Swift", "Objective-C", "C", "C++"]
     },
     {
       "company": "Realtime Art Studio",
