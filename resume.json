@@ -2,11 +2,11 @@
   "basics": {
     "name": "Nicolas Chauvin",
     "label": "Computer Engineer & Polyvalent Technician",
-    "picture": "/images/me.jpg",
+    "picture": "images/me.jpg",
     "email": "chauvin.nico@gmail.com",
     "phone": "",
     "website": "",
-    "summary": "Young man from Paris suburb. I love human technologies, from fire to internet, passing through the invention of wheel, metals manufacture, engines, electricty, computing machines, cars, planes, spacecrafts... I would love to dedicate a part of my life to contribute, to construct and improve our technology. Everyday Archlinux user, I am a Linux lover, and I try to share and improve as I can the open-source ressources we have at our disposal. Let's now talk a bit about an old dream. When I was young I would have loved to be an aircraft or a racing car pilot, but it was not possible; working on them was a way to get closer of it; that's why I still have this taste for this machines and thrills and spills. So now I let you imagine what looks like all this passions and stuffs mixed together... Merry mess.",
+    "summary": "Young man from Paris suburb. I love human technologies, from fire to internet, passing through the invention/discover of wheel, metals manufacture, engines, electricty, computing machines, cars, planes, spacecrafts... I would love to dedicate a part of my life to contribute, to construct and improve our technology. Everyday ArchLinux user, I am a Linux lover, and I try to share and improve as I can the open-source ressources we have at our disposal. Let's now talk a bit about an old dream. When I was young I would have loved to be an aircraft or a racing car pilot, but it was not possible; working on this machines was a way to get closer of them; that's why I still have this taste for this devices and thrills and spills. So now I let you imagine what looks like all this passions and stuffs mixed together... Merry mess.",
     "location": {
       "address": "",
       "postalCode": "78610",
@@ -39,8 +39,8 @@
       "website": "http://eip.epitech.eu/2017/samsolution",
       "startDate": "2015-02-01",
       "endDate": "2017-07-01",
-      "summary": "Lead developer, technical referent, software developer, and member of the human ressources management team. I was a member of a nine students group during a project called the Epitech Innovative Project; the final school project of my Master degree.",
-      "highlights": ["EIP", "Epitech Innovative Project", "Node.js"]
+      "summary": "Lead developer, member of the human ressources management team, technical referent, and of course software developer. I was a member of a nine students group for a project called the Epitech Innovative Project; the final school project of my Master degree. More informations about the projet itself on the project website.",
+      "highlights": ["System Administration Solution", "EIP", "Epitech Innovative Project", "Node.js"]
     },
     {
       "company": "Creatiwity",
@@ -49,7 +49,7 @@
       "startDate": "2015-04-01",
       "endDate": "2015-07-15",
       "summary": "",
-      "highlights": ["iOS", "Swift", "Objective-C", "C", "C++"]
+      "highlights": ["Mon album photo", "iOS", "Swift", "Objective-C", "C", "C++"]
     },
     {
       "company": "Realtime Art Studio",
@@ -58,7 +58,7 @@
       "startDate": "2014-09-01",
       "endDate": "2015-01-01",
       "summary": "",
-      "highlights": []
+      "highlights": ["Playy.tv", "Cross-platform", "Windows", "Linux", "Mac OS X", "C++", "Qt", "QML"]
     },
     {
       "company": "Realtime Art Studio",
@@ -67,13 +67,13 @@
       "startDate": "2013-09-01",
       "endDate": "2013-12-01",
       "summary": "",
-      "highlights": []
+      "highlights": ["Playy.tv", "Windows", "C", "WinAPI", "System administration", "Network administration"]
     },
     {
       "company": "0-one",
       "position": "Automotive Mechanic Technician",
       "website": "http://www.0one.fr",
-      "startDate": "2011-06-01",
+      "startDate": "2010-10-01",
       "endDate": "2012-07-30",
       "summary": "",
       "highlights": []
@@ -93,7 +93,7 @@
       "website": "http://www.autoarita.fi",
       "startDate": "2011-02-01",
       "endDate": "2012-03-01",
-      "summary": "baz",
+      "summary": "",
       "highlights": []
     },
     {
@@ -103,7 +103,7 @@
       "startDate": "2009-06-01",
       "endDate": "2009-07-01",
       "summary": "",
-      "highlights": ["", ""]
+      "highlights": []
     }
   ],
   "volunteer": [],
@@ -219,9 +219,9 @@
         "Windows",
         "Mac OS X",
         "Shell scripting",
-        "Web Servers",
+        "Web servers",
         "Databases",
-        "DNS",
+        "Domain naming services",
         "SSH",
         "Git",
         "Security"
@@ -246,9 +246,9 @@
       "name": "Electronics",
       "level": "",
       "keywords": [
-        "Tin Welding",
-        "Diagram Reading/Writting",
-        "Simple Circuit Design",
+        "Tin welding",
+        "Hardware diagram reading/writting",
+        "Simple circuit design",
         "Prototyping"
       ]
     },
@@ -340,7 +340,7 @@
     {
       "name": "Motor races",
       "keywords": [
-        "24h du Mans",
+        "24h of le Mans",
         "WRC",
         "Endurance",
         "Rallye",
