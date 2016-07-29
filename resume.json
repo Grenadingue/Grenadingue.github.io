@@ -177,7 +177,15 @@
       "startDate": "2008-09-01",
       "endDate": "2010-07-01",
       "gpa": "",
-      "courses": []
+      "courses": [
+        "Automotive workshop",
+        "Automotive technologies",
+        "Functional and structural analysis",
+        "Mathematics",
+        "Physics",
+        "English",
+        "French"
+      ]
     }
   ],
   "awards": [
