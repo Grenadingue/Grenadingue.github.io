@@ -38,9 +38,9 @@
       "position": "Lead Developer",
       "website": "http://eip.epitech.eu/2017/samsolution",
       "startDate": "2015-02-01",
-      "endDate": "2017-07-01",
-      "summary": "Lead developer, member of the human ressources management team, technical referent, and of course software developer. I was a member of a nine students group for a project called the Epitech Innovative Project; the final school project of my Master degree. More informations about the projet itself on the project website.",
-      "highlights": ["System Administration Solution", "EIP", "Epitech Innovative Project", "Node.js"]
+      "endDate": "2017-02-01",
+      "summary": "Lead developer, member of the human ressources management team, technical referent, and of course software developer. I am a member of a nine students group for a project called the Epitech Innovative Project; the final school project of my Master degree. SAM-Solution is a management tool for IT-infrastructures, intended for companies. It allows to centralize system and software migrations, as well as backup and restoration of user data. This tool design goal is to help the system administrator of a company in his work, and to be easily usable by the final user.",
+      "highlights": ["SAM - System Administration Manager", "EIP - Epitech Innovative Project", "Node.js"]
     },
     {
       "company": "Creatiwity",
