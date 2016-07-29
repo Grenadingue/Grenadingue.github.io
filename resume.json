@@ -45,11 +45,11 @@
     {
       "company": "Creatiwity",
       "position": "Software Developer",
-      "website": "https://creatiwity.net",
+      "website": "https://creatiwity.net/portfolio/detail/23-monalbumphoto",
       "startDate": "2015-04-01",
       "endDate": "2015-07-15",
-      "summary": "",
-      "highlights": ["Mon album photo", "iOS", "Swift", "Objective-C", "C", "C++"]
+      "summary": "Software developer in a team of four people, including software architects, developers, and a designer. I worked on the first version of an iOS iPad application named \"Mon Album Photo\". The application concept is to import photos from multiple sources and to easily compile them on a photo album, or other mediums.",
+      "highlights": ["Mon album photo", "iOS", "Swift", "Objective-C", "C/C++", "XCode", "Mac OS X"]
     },
     {
       "company": "Realtime Art Studio",
