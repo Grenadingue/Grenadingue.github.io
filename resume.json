@@ -58,7 +58,7 @@
       "startDate": "2014-09-01",
       "endDate": "2015-01-01",
       "summary": "[Paris 11, France]",
-      "highlights": ["Playy.tv", "Cross-platform", "Windows", "Linux", "Mac OS X", "C++", "Qt", "QML"]
+      "highlights": ["Playy.tv", "Arduino", "Cross-platform", "Windows", "Linux", "Mac OS X", "C++", "Qt", "QML"]
     },
     {
       "company": "Realtime Art Studio",
@@ -67,7 +67,7 @@
       "startDate": "2013-09-01",
       "endDate": "2013-12-01",
       "summary": "[Paris 11, France]",
-      "highlights": ["Playy.tv", "Windows", "C", "WinAPI", "System administration", "Network administration"]
+      "highlights": ["Playy.tv", "Arduino", "Windows", "C", "WinAPI", "System administration", "Network administration"]
     },
     {
       "company": "0-one",
@@ -76,7 +76,7 @@
       "startDate": "2011-06-01",
       "endDate": "2012-07-30",
       "summary": "[Le Perray-en-Yvelines, France]",
-      "highlights": ["Mechanics", "Electrician", "Classic cars", "Racing cars", "Usual cars", "Restauration", "Preparation", "Maintenance", "Reparation"]
+      "highlights": ["Mechanics", "Electronics", "Machining", "Manufacture", "Classic cars", "Racing cars", "Usual cars", "Restauration", "Preparation", "Maintenance", "Reparation"]
     },
     {
       "company": "Garage de Maison Blanche",
@@ -85,7 +85,7 @@
       "startDate": "2011-03-01",
       "endDate": "2011-04-01",
       "summary": "[Les Essarts-le-roi, France]",
-      "highlights": ["Mechanics", "Classic cars", "Usual cars", "Restauration", "Maintenance", "Reparation"]
+      "highlights": ["Mechanics", "English classic cars", "Usual cars", "Restauration", "Maintenance", "Reparation"]
     },
     {
       "company": "Toyota Auto-Arita",
@@ -94,7 +94,7 @@
       "startDate": "2011-02-01",
       "endDate": "2011-03-01",
       "summary": "[Järvenpää, Finland]",
-      "highlights": ["Mechanics", "Electrician", "Usual cars", "Maintenance", "Reparation", "English"]
+      "highlights": ["Mechanics", "Electronics", "Maintenance", "Reparation", "English"]
     },
     {
       "company": "Renault Garage DMB",
