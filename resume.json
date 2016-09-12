@@ -122,15 +122,18 @@
     {
       "institution": "MIT - Manipal Institute of Technology",
       "area": "Computer Science & Engineering",
-      "studyType": "[M1] Master",
+      "studyType": "Master",
       "startDate": "2015-08-01",
       "endDate": "2016-05-15",
       "gpa": "",
       "courses": [
-        "International Exchange Program",
+        "International exchange program",
         "10 months in India",
-        "Culture",
-        "English"
+        "Computer science and engineering",
+        "Information and communication technologies",
+        "Master of computer applications",
+        "English",
+        "Culture"
       ]
     },
     {
