@@ -39,8 +39,8 @@
       "website": "http://eip.epitech.eu/2017/samsolution",
       "startDate": "2015-02-01",
       "endDate": "2017-02-01",
-      "summary": "[Paris, France, and Worldwide] Lead developer, member of the human ressources management team, technical referent, and of course software developer. I am a member of a nine students group for a project called the Epitech Innovative Project; the final school project of my Master degree. SAM-Solution is a management tool for IT-infrastructures, intended for companies. It allows to centralize system and software migrations, as well as backup and restoration of user data.",
-      "highlights": ["SAM - System Administration Manager", "EIP - Epitech Innovative Project", "Node.js"]
+      "summary": "[Paris, France, and Worldwide] Lead developer, member of the human ressources team, technical referent, and software developer. I am a member of a nine students group for a project called the Epitech Innovative Project; the final school project of my Master degree. SAM-Solution is a management tool for IT-infrastructures, allowing to centralize system and software migrations, as well as backup and restoration of user data.",
+      "highlights": ["Lead developer", "Manager in HR team", "Developer", "Node.js", "EIP - Epitech Innovative Project"]
     },
     {
       "company": "Creatiwity",
@@ -48,8 +48,8 @@
       "website": "https://creatiwity.net/portfolio/detail/23-monalbumphoto",
       "startDate": "2015-04-01",
       "endDate": "2015-07-15",
-      "summary": "[Paris 12, France] Software developer in a team of four people, including software architects, developers, and a designer. I worked on the first version of an iOS iPad application named \"Mon Album Photo\". The application concept is to import photos from multiple sources and to easily compile them on a photo album, or other mediums.",
-      "highlights": ["Mon album photo", "iOS", "Swift", "Objective-C", "C/C++", "XCode", "Mac OS X"]
+      "summary": "[Paris 12, France] I worked on the \"Mon album photo\" iPad application, in a team of four people, including software architects, developers, and a designer. The main goal was to make the first version of the application; its concept is to import images from multiple sources and to easily compile them on a photo album, and many other mediums.",
+      "highlights": ["Mobile developer", "Swift", "Objective-C", "C/C++", "iOS", "iPad", "XCode", "Mac OS X"]
     },
     {
       "company": "Realtime Art Studio",
@@ -57,8 +57,8 @@
       "website": "http://www.realtime-art.net",
       "startDate": "2014-09-01",
       "endDate": "2015-01-01",
-      "summary": "[Paris 11, France]",
-      "highlights": ["Playy.tv", "Arduino", "Cross-platform", "Windows", "Linux", "Mac OS X", "C++", "Qt", "QML"]
+      "summary": "[Paris 11, France] Follow-up for the \"Playy.tv\" project. My main goal was to architect and develop a software controller able to receive and execute remote instructions from internet and harware buttons. Restarted software from scratch for full OS portability.",
+      "highlights": ["Software architect", "Software developer", "C++", "Qt", "QML", "RS-232", "Socket.io", "Arduino", "Cross-platform", "Windows", "Linux", "Mac OS X"]
     },
     {
       "company": "Realtime Art Studio",
@@ -66,8 +66,8 @@
       "website": "http://www.realtime-art.net",
       "startDate": "2013-09-01",
       "endDate": "2013-12-01",
-      "summary": "[Paris 11, France]",
-      "highlights": ["Playy.tv", "Arduino", "Windows", "C", "WinAPI", "System administration", "Network administration"]
+      "summary": "[Paris 11, France]  I worked on a project named \"Playy.tv\". My main goal was to architect and develop a software controller able to receive and execute remote instructions from internet and harware buttons.",
+      "highlights": ["Software architect", "Software developer", "C", "WinAPI", "RS-232", "Arduino", "Windows", "System administration", "Network administration"]
     },
     {
       "company": "0-one",
