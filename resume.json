@@ -219,6 +219,8 @@
         "Swift",
         "Node.js",
         "Python",
+        "gdb",
+        "valgrind",
         "SQL",
         "MongoDB",
         "Bash",
@@ -232,13 +234,17 @@
       "name": "System/Network Administration",
       "level": "",
       "keywords": [
-        "Linux / Unix",
+        "Linux",
+        "Unix",
         "Windows",
         "Mac OS X",
         "Shell scripting",
         "Web servers",
+        "Web services",
+        "Cloud",
+        "Torrent",
         "Databases",
-        "Domain naming services",
+        "DNS",
         "SSH",
         "Git",
         "Security"
@@ -264,8 +270,8 @@
       "level": "",
       "keywords": [
         "Tin welding",
-        "Hardware diagram reading/writting",
-        "Simple circuit design",
+        "Circuit diagram reading/writting",
+        "Circuit design",
         "Prototyping"
       ]
     },
