@@ -330,15 +330,17 @@
       "keywords": [
         "Education",
         "Human rights",
-        "Civical rights"
+        "Civical rights",
+        "Open democracy"
       ]
     },
     {
       "name": "Technological watch",
       "keywords": [
-        "Inter-planetary distributed systems",
         "Open-source world",
-        "Automotive technologies"
+        "Automotive technologies",
+        "Inter-planetary distributed systems",
+        "Human organization tools"
       ]
     },
     {
@@ -348,7 +350,7 @@
         "Cross-culture dependancies",
         "Mathematics",
         "Programming languages",
-        "Street-arts"
+        "Street-art"
       ]
     },
     {
@@ -363,7 +365,7 @@
     {
       "name": "Motor races",
       "keywords": [
-        "24h of le Mans",
+        "24h of Le Mans",
         "WRC",
         "Endurance",
         "Rallye",
