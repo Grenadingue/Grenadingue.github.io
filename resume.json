@@ -34,6 +34,15 @@
   },
   "work": [
     {
+      "company": "Substantiel SAS",
+      "position": "Kernel Tester/Developer",
+      "website": "http://www.ordissimo.eu/en/about/change-mind",
+      "startDate": "2016-10-10",
+      "endDate": "2017-03-29",
+      "summary": "[Montrouge, France] Working on Ordissimo, a Linux distribution based on Debian. It's goal is to be very easily usable for seniors. I'm one of the developers charged of testing and troubleshooting kernel/system bugs.",
+      "highlights": ["Software/Hardware tester", "Software developer", "Linux kernel", "Debian packages", "Build tools", "C", "Shell"]
+    },
+    {
       "company": "SAM-Solution",
       "position": "Lead Developer",
       "website": "http://eip.epitech.eu/2017/samsolution",
