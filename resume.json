@@ -119,8 +119,8 @@
   "education": [
     {
       "institution": "EPITECH - European Institute of Technology",
-      "area": "Information Technology Expertise",
-      "studyType": "[M2] Master 2",
+      "area": "Information Technologies",
+      "studyType": "[MASTER 2] Expert in",
       "startDate": "2015-09-01",
       "endDate": "2017-07-01",
       "gpa": "",
@@ -131,7 +131,7 @@
     {
       "institution": "MIT - Manipal Institute of Technology",
       "area": "Computer Science & Engineering",
-      "studyType": "Master",
+      "studyType": "[MASTER] Master in",
       "startDate": "2015-08-01",
       "endDate": "2016-05-15",
       "gpa": "",
@@ -150,7 +150,7 @@
     {
       "institution": "EPITECH - European Institute of Technology",
       "area": "Information Technology",
-      "studyType": "[B.TECH] Bachelor",
+      "studyType": "[B.TECH] Bachelor in",
       "startDate": "2012-09-01",
       "endDate": "2015-07-01",
       "gpa": "",
@@ -173,8 +173,8 @@
     },
     {
       "institution": "GARAC - National School of Automotive Professions",
-      "area": "Automotive Mechanics and Technology",
-      "studyType": "[BAC PRO] Baccalauréat",
+      "area": "Automotive Mechanics & Technology",
+      "studyType": "[BAC PRO] Baccalauréat in",
       "startDate": "2010-09-01",
       "endDate": "2012-07-01",
       "gpa": "",
@@ -190,8 +190,8 @@
     },
     {
       "institution": "GARAC - National School of Automotive Professions",
-      "area": "Automotive Mechanics and Technology",
-      "studyType": "[BEP] National Vocational Qualification",
+      "area": "Automotive Mechanics & Technology",
+      "studyType": "[BEP] Vocational Qualification in",
       "startDate": "2008-09-01",
       "endDate": "2010-07-01",
       "gpa": "",
