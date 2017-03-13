@@ -35,12 +35,12 @@
   "work": [
     {
       "company": "Substantiel SAS",
-      "position": "Kernel Tester/Developer",
+      "position": "Software Developer/Hardware Tester",
       "website": "http://www.ordissimo.eu/en/about/change-mind",
       "startDate": "2016-10-10",
       "endDate": "2017-03-29",
-      "summary": "[Montrouge, France] Working on Ordissimo, a Linux distribution based on Debian. It's goal is to be very easily usable for seniors. I'm one of the developers charged of testing and troubleshooting kernel/system bugs.",
-      "highlights": ["Software/Hardware tester", "Software developer", "Linux kernel", "Debian packages", "Build tools", "C", "Shell"]
+      "summary": "[Montrouge, France] Working on Ordissimo, a Linux distribution based on Debian, targeting senior users. I've developed a bunch of shell scripts for functionlities unit testing. I started to develop a kind of hardware testing assistant, based on the top of a web server, and supposed to guide a real human through the process of hardware testing.",
+      "highlights": ["Software/Hardware tester", "Software developer", "Web developer", "Shell scripting", "Node.js/MongoDB"]
     },
     {
       "company": "SAM-Solution",
