@@ -6,7 +6,7 @@
     "email": "chauvin.nico@gmail.com",
     "phone": "",
     "website": "",
-    "summary": "Young man from Paris suburb. I love human technologies, from fire to internet, passing through the invention/discover of wheel, metals manufacture, engines, electricty, computing machines, cars, planes, spacecrafts... I would love to dedicate a part of my life to contribute, to construct and improve our technology. Everyday ArchLinux user, I am a Linux lover, and I try to share and improve as I can the open-source ressources we have at our disposal. Let's now talk a bit about an old dream. When I was young I would have loved to be an aircraft or a racing car pilot, but it was not possible; working on this machines was a way to get closer of them; that's why I still have this taste for this devices and thrills and spills. So now I let you imagine what looks like all this passions and stuffs mixed together... Merry mess.",
+    "summary": "Young man from Paris suburb. I love human technologies, from fire to internet, passing through the discover/invention of wheel, metals manufacture, engines, electricty, computing machines, cars, planes, spacecrafts... I would love to dedicate a part of my life to contribute, to construct and improve our technology. Everyday ArchLinux user, I am a Linux lover, and I try to share and improve as I can the open-source ressources we have at our disposal. Let's now talk a bit about an old dream. When I was young I would have loved to be an aircraft or a racing car pilot, but it was not possible; working on this machines was a way to get closer of them; that's why I still have this taste for these devices and thrills and spills. So now I let you imagine what looks like all this passions and stuffs mixed together... Merry mess.",
     "location": {
       "address": "",
       "postalCode": "75012",
@@ -49,7 +49,7 @@
       "startDate": "2015-02-01",
       "endDate": "2017-02-01",
       "summary": "[Paris, France, and Worldwide] Lead developer, member of the human ressources team, technical referent, and software developer. I was a member of a nine students group for a project called the Epitech Innovative Project; the final school project of my Master degree. SAM-Solution is a management tool for IT-infrastructures, allowing to centralize system and software migrations, as well as backup and restoration of user data.",
-      "highlights": ["Lead developer", "Manager in HR team", "Backend Developer", "Devops", "Node.js", "Shell scripting", "EIP - Epitech Innovative Project"]
+      "highlights": ["Lead developer", "Manager in HR team", "Backend developer", "Devops", "Node.js", "Shell scripting", "EIP - Epitech Innovative Project"]
     },
     {
       "company": "Creatiwity",
@@ -75,7 +75,7 @@
       "website": "http://www.realtime-art.net",
       "startDate": "2013-09-01",
       "endDate": "2013-12-01",
-      "summary": "[Paris 11, France]  I worked on a project named \"Playy.tv\". My main goal was to architect and develop a software controller able to receive and execute remote instructions from internet and harware buttons.",
+      "summary": "[Paris 11, France] I worked on a project named \"Playy.tv\". My main goal was to architect and develop a software controller able to receive and execute remote instructions from internet and harware buttons.",
       "highlights": ["Software architect", "Software developer", "C", "WinAPI", "RS-232", "Arduino", "Windows", "System administration", "Network administration"]
     },
     {
@@ -361,7 +361,7 @@
       "name": "Human languages",
       "keywords": [
         "Etymology",
-        "Cross-culture dependancies",
+        "Cross-cultures dependancies",
         "Mathematics",
         "Programming languages",
         "Street-art"
