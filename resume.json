@@ -39,7 +39,7 @@
       "website": "http://www.ordissimo.eu/en/about/change-mind",
       "startDate": "2016-10-10",
       "endDate": "2017-03-29",
-      "summary": "[Montrouge, France] Working on Ordissimo, a Linux distribution based on Debian, targeting senior users. I've developed a bunch of shell scripts for functionalities unit testing. I started to develop a kind of hardware testing assistant, based on the top of a web server, and supposed to guide a real human through the process of hardware testing.",
+      "summary": "[Montrouge, France] Worked on Ordissimo, a Linux distribution based on Debian, targeting senior users. I've developed a bunch of shell scripts for functionalities unit testing. I started to develop a kind of hardware testing assistant, based on the top of a web server, and supposed to guide a real human through the process of hardware testing.",
       "highlights": ["Software/Hardware tester", "Software developer", "Fullstack web developer", "Shell scripting", "Node.js", "MongoDB"]
     },
     {
