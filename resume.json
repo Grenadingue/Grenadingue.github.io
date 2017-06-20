@@ -40,7 +40,7 @@
       "startDate": "2016-10-10",
       "endDate": "2017-03-29",
       "summary": "[Montrouge, France] Working on Ordissimo, a Linux distribution based on Debian, targeting senior users. I've developed a bunch of shell scripts for functionalities unit testing. I started to develop a kind of hardware testing assistant, based on the top of a web server, and supposed to guide a real human through the process of hardware testing.",
-      "highlights": ["Software/Hardware tester", "Software developer", "Web developer", "Shell scripting", "Node.js/MongoDB"]
+      "highlights": ["Software/Hardware tester", "Software developer", "Fullstack web developer", "Shell scripting", "Node.js/MongoDB"]
     },
     {
       "company": "SAM-Solution",
@@ -49,7 +49,7 @@
       "startDate": "2015-02-01",
       "endDate": "2017-02-01",
       "summary": "[Paris, France, and Worldwide] Lead developer, member of the human ressources team, technical referent, and software developer. I was a member of a nine students group for a project called the Epitech Innovative Project; the final school project of my Master degree. SAM-Solution is a management tool for IT-infrastructures, allowing to centralize system and software migrations, as well as backup and restoration of user data.",
-      "highlights": ["Lead developer", "Manager in HR team", "Developer", "Node.js", "EIP - Epitech Innovative Project"]
+      "highlights": ["Lead developer", "Manager in HR team", "Backend Developer", "Devops", "Node.js", "EIP - Epitech Innovative Project"]
     },
     {
       "company": "Creatiwity",
