@@ -85,7 +85,7 @@
       "startDate": "2011-06-01",
       "endDate": "2012-07-30",
       "summary": "[Le Perray-en-Yvelines, France]",
-      "highlights": ["Mechanics", "Electronics", "Machining", "Manufacture", "Classic cars", "Racing cars", "Usual cars", "Restauration", "Preparation", "Maintenance", "Reparation"]
+      "highlights": ["Mechanics", "Electronics", "Machining", "Manufacture", "Classic/Racing/Usual cars", "Restauration", "Preparation", "Maintenance", "Reparation"]
     },
     {
       "company": "Garage de Maison Blanche",
@@ -94,7 +94,7 @@
       "startDate": "2011-03-01",
       "endDate": "2011-04-01",
       "summary": "[Les Essarts-le-roi, France]",
-      "highlights": ["Mechanics", "English classic cars", "Usual cars", "Restauration", "Maintenance", "Reparation"]
+      "highlights": ["Mechanics", "English classic/Usual cars", "Restauration", "Maintenance", "Reparation"]
     },
     {
       "company": "Toyota Auto-Arita",
