@@ -21,14 +21,14 @@
         "url": "https://github.com/Grenadingue"
       },
       {
-        "network": "SoundCloud",
-        "username": "insaNico",
-        "url": "https://soundcloud.com/insanico"
-      },
-      {
         "network": "LinkedIn",
         "username": "Nicolas Chauvin",
         "url": "https://www.linkedin.com/in/nicolas-chauvin-12226063"
+      },
+      {
+        "network": "SoundCloud",
+        "username": "insaNico",
+        "url": "https://soundcloud.com/insanico"
       }
     ]
   },
