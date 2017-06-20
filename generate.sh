@@ -1,5 +1,7 @@
 #!/bin/sh
 
+THEME=stackoverflow
+
 command_exists()
 {
     command -v $1 >/dev/null 2>&1
@@ -11,13 +13,14 @@ if ! command_exists resume; then
     exit 1
 fi
 
-resume export resume.html --theme stackoverflow
-
-if [ $? == 0 ]; then
-    mv resume.html index.html
-    echo "resume.html -> index.html"
+if resume export resume.html --theme "$THEME"; then
+    if ! mv -v resume.html index.html; then
+        echo "Error: Rendered web page not found" >&2
+        exit 1
+    fi
 else
     echo "Error: Web page rendering failure" >&2
+    exit 1
 fi
 
-exit $?
+exit 0
