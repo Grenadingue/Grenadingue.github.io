@@ -235,6 +235,7 @@
       "keywords": [
         "C",
         "C++",
+        "Java",
         "Qt",
         "QML",
         "SDL",
@@ -261,6 +262,7 @@
         "Windows",
         "Mac OS X",
         "Shell scripting",
+        "Docker",
         "Web servers",
         "Web services",
         "Cloud",
