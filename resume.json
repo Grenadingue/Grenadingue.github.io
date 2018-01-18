@@ -34,6 +34,14 @@
   },
   "work": [
     {
+      "company": "Mobile Devices Ingénierie",
+      "position": "Embedded Software Developer",
+      "website": "http://www.mobile-devices.com/company/",
+      "startDate": "2017-07-11",
+      "summary": "[Villejuif, France] I'm working on the applicative level of the embedded devices sold by the company. My work on the devices starts from userland drivers, to data processing, with the goal of handling OBD2 communications for light/heavy automotive vehicles. Moreover, I'm working on the last version of the device's emulator, with a goal of easier development, and better software testing.",
+      "highlights": ["Embedded Software Developer", "Software developer", "C/C++", "Java", "Shell scripting", "OBD2", "CAN", "KLine", "Docker"]
+    },
+    {
       "company": "Substantiel SAS",
       "position": "Software Developer/Hardware Tester",
       "website": "http://www.ordissimo.eu/en/about/change-mind",
