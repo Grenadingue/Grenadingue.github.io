@@ -29,6 +29,11 @@
         "network": "SoundCloud",
         "username": "insaNico",
         "url": "https://soundcloud.com/insanico"
+      },
+      {
+        "network": "StackOverflow",
+        "username": "user:2966296",
+        "url": "https://stackoverflow.com/story/grenadingue"
       }
     ]
   },
