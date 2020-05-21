@@ -9,10 +9,8 @@
     "summary": "Young man from Paris suburb. I love human technologies, from fire mastering to internet, passing through the discover/invention of wheel, metals manufacture, engines, electricty, computing machines, cars, planes, spacecrafts... I would love to dedicate a part of my life to contribute, to construct and improve our technology. Everyday Archlinux user, I am a Linux lover, and seeing myself as a drop of water in the open-source ocean, I try to interact with the knowledge we have at our disposal. Let's now talk a bit about an old dream. When I was young I would have loved to be an aircraft pilot or a racing car one, but it was not possible; working on this machines was a way to get closer of them; that's why I still have this taste for these devices and thrills and spills. So now I let you imagine what looks like all this passions and stuffs mixed together... Merry mess.",
     "location": {
       "address": "",
-      "postalCode": "94200",
-      "city": "Ivry-sur-Seine",
-      "countryCode": "FR",
-      "region": "Ile de france"
+      "city": "Tirana",
+      "countryCode": "AL"
     },
     "profiles": [
       {
@@ -44,7 +42,22 @@
       "website": "http://www.mobile-devices.com/company/",
       "startDate": "2017-07-11",
       "summary": "[Villejuif, France] I'm working on the applicative level of the embedded devices sold by the company. My work on the devices starts from userland drivers, to data processing, with the goal of handling OBD-II communications for light/heavy automotive vehicles. I also worked on the last version of the device's emulator, with a goal of easier development, and better software testing. Moreover, I also had been responsible of leading an internal project, during six months, with a team of around 10 interns. During this time I established a one month formation so that the trainess could acquire all the needed technical and organizational skills needed. This formation has then been used widely accross the compnay for newcomers. The project was made up of one mobile application, one website and some cloud services.",
-      "highlights": ["Embedded Software Developer", "Project Leader", "Tutoring", "C/C++", "Java", "Shell scripting", "OBD-II", "CAN", "KLine", "J1939", "Docker", "Dart", "Flutter", "Node.js"]
+      "highlights": [
+        "Embedded Software Developer",
+        "Project Leader",
+        "Tutoring",
+        "C/C++",
+        "Java",
+        "Shell scripting",
+        "OBD-II",
+        "CAN",
+        "KLine",
+        "J1939",
+        "Docker",
+        "Dart",
+        "Flutter",
+        "Node.js"
+      ]
     },
     {
       "company": "Substantiel SAS",
@@ -53,7 +66,14 @@
       "startDate": "2016-10-10",
       "endDate": "2017-03-29",
       "summary": "[Montrouge, France] Worked on Ordissimo, a Linux distribution based on Debian, targeting senior users. I've developed a bunch of shell scripts for functionalities unit testing. I started to develop a kind of hardware testing assistant, based on the top of a web server, and supposed to guide a real human through the process of hardware testing.",
-      "highlights": ["Software/Hardware tester", "Software developer", "Fullstack web developer", "Shell scripting", "Node.js", "MongoDB"]
+      "highlights": [
+        "Software/Hardware tester",
+        "Software developer",
+        "Fullstack web developer",
+        "Shell scripting",
+        "Node.js",
+        "MongoDB"
+      ]
     },
     {
       "company": "SAM-Solution",
@@ -62,7 +82,15 @@
       "startDate": "2015-02-01",
       "endDate": "2017-02-01",
       "summary": "[Paris, France, and Worldwide] Lead developer, member of the human ressources team, technical referent, and software developer. I was a member of a nine students group for a project called the Epitech Innovative Project; the final school project of my Master degree. SAM-Solution is a management tool for IT-infrastructures, allowing to centralize system and software migrations, as well as backup and restoration of user data.",
-      "highlights": ["Lead developer", "Manager in HR team", "Backend developer", "Devops", "Node.js", "Shell scripting", "EIP - Epitech Innovative Project"]
+      "highlights": [
+        "Lead developer",
+        "Manager in HR team",
+        "Backend developer",
+        "Devops",
+        "Node.js",
+        "Shell scripting",
+        "EIP - Epitech Innovative Project"
+      ]
     },
     {
       "company": "Creatiwity",
@@ -71,7 +99,16 @@
       "startDate": "2015-04-01",
       "endDate": "2015-07-15",
       "summary": "[Paris 12, France] I worked on the \"Mon album photo\" iPad application, in a team of four people, including software architects, developers, and a designer. The main goal was to make the first version of the application; its concept is to import images from multiple sources and to easily compile them on a photo album, and many other mediums.",
-      "highlights": ["Mobile developer", "Swift", "Objective-C", "C/C++", "iOS", "iPad", "XCode", "Mac OS X"]
+      "highlights": [
+        "Mobile developer",
+        "Swift",
+        "Objective-C",
+        "C/C++",
+        "iOS",
+        "iPad",
+        "XCode",
+        "Mac OS X"
+      ]
     },
     {
       "company": "Realtime Art Studio",
@@ -80,7 +117,20 @@
       "startDate": "2014-09-01",
       "endDate": "2015-01-01",
       "summary": "[Paris 11, France] Follow-up for the \"Playy.tv\" project. My main goal was to architect and develop a software controller able to receive and execute remote instructions from internet and harware buttons. Restarted software from scratch for full OS portability.",
-      "highlights": ["Software architect", "Software developer", "C++", "Qt", "QML", "RS-232", "Socket.io", "Arduino", "Cross-platform", "Windows", "Linux", "Mac OS X"]
+      "highlights": [
+        "Software architect",
+        "Software developer",
+        "C++",
+        "Qt",
+        "QML",
+        "RS-232",
+        "Socket.io",
+        "Arduino",
+        "Cross-platform",
+        "Windows",
+        "Linux",
+        "Mac OS X"
+      ]
     },
     {
       "company": "Realtime Art Studio",
@@ -89,7 +139,17 @@
       "startDate": "2013-09-01",
       "endDate": "2013-12-01",
       "summary": "[Paris 11, France] I worked on a project named \"Playy.tv\". My main goal was to architect and develop a software controller able to receive and execute remote instructions from internet and harware buttons.",
-      "highlights": ["Software architect", "Software developer", "C", "WinAPI", "RS-232", "Arduino", "Windows", "System administration", "Network administration"]
+      "highlights": [
+        "Software architect",
+        "Software developer",
+        "C",
+        "WinAPI",
+        "RS-232",
+        "Arduino",
+        "Windows",
+        "System administration",
+        "Network administration"
+      ]
     },
     {
       "company": "0-one",
@@ -98,7 +158,17 @@
       "startDate": "2011-06-01",
       "endDate": "2012-07-30",
       "summary": "[Le Perray-en-Yvelines, France]",
-      "highlights": ["Mechanics", "Electronics", "Machining", "Manufacture", "Classic/Racing/Usual cars", "Restauration", "Preparation", "Maintenance", "Reparation"]
+      "highlights": [
+        "Mechanics",
+        "Electronics",
+        "Machining",
+        "Manufacture",
+        "Classic/Racing/Usual cars",
+        "Restauration",
+        "Preparation",
+        "Maintenance",
+        "Reparation"
+      ]
     },
     {
       "company": "Garage de Maison Blanche",
@@ -107,7 +177,13 @@
       "startDate": "2011-03-01",
       "endDate": "2011-04-01",
       "summary": "[Les Essarts-le-roi, France]",
-      "highlights": ["Mechanics", "English classic/Usual cars", "Restauration", "Maintenance", "Reparation"]
+      "highlights": [
+        "Mechanics",
+        "English classic/Usual cars",
+        "Restauration",
+        "Maintenance",
+        "Reparation"
+      ]
     },
     {
       "company": "Toyota Auto-Arita",
@@ -116,7 +192,13 @@
       "startDate": "2011-02-01",
       "endDate": "2011-03-01",
       "summary": "[Järvenpää, Finland]",
-      "highlights": ["Mechanics", "Electronics", "Maintenance", "Reparation", "English"]
+      "highlights": [
+        "Mechanics",
+        "Electronics",
+        "Maintenance",
+        "Reparation",
+        "English"
+      ]
     },
     {
       "company": "Renault Garage DMB",
@@ -125,7 +207,11 @@
       "startDate": "2009-06-01",
       "endDate": "2009-07-01",
       "summary": "[Le Perray-en-Yvelines, France]",
-      "highlights": ["Mechanics", "Maintenance", "Reparation"]
+      "highlights": [
+        "Mechanics",
+        "Maintenance",
+        "Reparation"
+      ]
     }
   ],
   "volunteer": [],
