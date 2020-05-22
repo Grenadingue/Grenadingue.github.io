@@ -37,6 +37,21 @@
   },
   "work": [
     {
+      "company": "EPITECH Albania",
+      "position": "DPRa, Pedagogical Co-Director",
+      "website": "https://epitech.al",
+      "startDate": "2020-01-06",
+      "summary": "[Tirana, Albania] I'm responsible of the 1st and 2nd year EPITECH Bachelor students, which represents around 20 persons. I teach, tutor and accompany the students during their journey.",
+      "highlights": [
+        "Pedagogical Co-Director",
+        "Pedagogical Assistant",
+        "Technical Assistant",
+        "Teaching",
+        "Tutoring",
+        "C/C++"
+      ]
+    },
+    {
       "company": "Munic (Formerly Mobile Devices Ingénierie)",
       "position": "Embedded Software Developer",
       "website": "https://www.munic.io/about-us/",
