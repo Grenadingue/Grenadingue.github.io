@@ -37,11 +37,12 @@
   },
   "work": [
     {
-      "company": "Mobile Devices Ingénierie",
+      "company": "Munic (Formerly Mobile Devices Ingénierie)",
       "position": "Embedded Software Developer",
-      "website": "http://www.mobile-devices.com/company/",
+      "website": "https://www.munic.io/about-us/",
       "startDate": "2017-07-11",
-      "summary": "[Villejuif, France] I'm working on the applicative level of the embedded devices sold by the company. My work on the devices starts from userland drivers, to data processing, with the goal of handling OBD-II communications for light/heavy automotive vehicles. I also worked on the last version of the device's emulator, with a goal of easier development, and better software testing. Moreover, I also had been responsible of leading an internal project, during six months, with a team of around 10 interns. During this time I established a one month formation so that the trainess could acquire all the needed technical and organizational skills needed. This formation has then been used widely accross the compnay for newcomers. The project was made up of one mobile application, one website and some cloud services.",
+      "endDate": "2019-11-15",
+      "summary": "[Villejuif, France] I worked on the applicative level of the embedded devices sold by the company. My work on the devices went from userland drivers, to data processing, with the goal of handling OBD-II communications for light/heavy automotive vehicles. I also worked on the last version of the device's emulator, with a goal of easier development, and better software testing. Moreover, I also had been responsible of leading an internal project, during six months, with a team of around 10 interns. During this time I established a one month formation so that the trainess could acquire all the needed technical and organizational skills needed. This formation has then been used widely accross the compnay for newcomers. The project was made up of one mobile application, one website and some cloud services.",
       "highlights": [
         "Embedded Software Developer",
         "Project Leader",
