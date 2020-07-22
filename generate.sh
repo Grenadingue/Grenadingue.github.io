@@ -1,6 +1,10 @@
 #!/bin/sh
 
-THEME=stackoverflow
+set -e
+
+theme=stackoverflow
+script_dir="$(cd "$(dirname "${0}")" && pwd)"
+export PATH="${PATH}:${PWD}/node_modules/.bin"
 
 command_exists()
 {
@@ -9,11 +13,11 @@ command_exists()
 
 if ! command_exists resume; then
     echo "Error: 'resume' command not found" >&2
-    echo "Please install it from the instructions at this address https://jsonresume.org/getting-started/" >&2
+    echo "Did you run `npm install`?" >&2
     exit 1
 fi
 
-if resume export resume.html --theme "$THEME"; then
+if resume export resume.html --theme "${theme}"; then
     if ! mv -v resume.html index.html; then
         echo "Error: Rendered web page not found" >&2
         exit 1
