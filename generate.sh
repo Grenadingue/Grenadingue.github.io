@@ -4,7 +4,7 @@ set -e
 
 theme=stackoverflow
 script_dir="$(cd "$(dirname "${0}")" && pwd)"
-export PATH="${PATH}:${PWD}/node_modules/.bin"
+export PATH="${PATH}:${script_dir}/node_modules/.bin"
 
 command_exists()
 {
