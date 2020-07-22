@@ -1,29 +1,97 @@
 <!doctype html>
 <html>
-
-	<head>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
-		<title>Nicolas Chauvin</title>
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" />
-		<style>
-			/********************************************
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+  <title>Nicolas Chauvin</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <style>
+  /********************************************
 * 	reset from
 * 	http://meyerweb.com/eric/tools/css/reset/
 *******************************************/
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
     margin: 0;
     padding: 0;
     border: 0;
@@ -31,8 +99,17 @@ time, mark, audio, video {
     vertical-align: baseline;
 }
 
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
     display: block;
 }
 
@@ -40,16 +117,20 @@ body {
     line-height: 1;
 }
 
-ol, ul {
+ol,
+ul {
     list-style: none;
 }
 
-blockquote, q {
+blockquote,
+q {
     quotes: none;
 }
 
-blockquote:before, blockquote:after,
-q:before, q:after {
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
     content: none;
 }
 
@@ -58,10 +139,13 @@ table {
     border-spacing: 0;
 }
 
+
 /****************
 *	COMMONS
 ****************/
-body, html {
+
+body,
+html {
     font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     font-size: 13px;
     color: #40484f;
@@ -69,7 +153,7 @@ body, html {
     letter-spacing: 0;
     line-height: 1.46153846;
     text-align: left;
-    webkit-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
 }
 
 p {
@@ -97,6 +181,10 @@ li {
     margin-left: 1.3em;
 }
 
+.highlights>li>p {
+    margin-bottom: 0.5em;
+}
+
 h1 {
     font-size: 2rem;
 }
@@ -121,13 +209,17 @@ strong {
     font-weight: 700;
 }
 
+
 /* main container */
+
 #resume {
     padding: 1rem;
     margin-top: 2rem;
 }
 
+
 /* every section wrapper */
+
 .section {
     margin-bottom: 1rem;
 }
@@ -146,8 +238,8 @@ section .location {
     padding: 0;
 }
 
-#header > #profiles,
-#header > #contact,
+#header>#profiles,
+#header>#contact,
 #skills,
 #languages,
 #interests {
@@ -162,11 +254,11 @@ section .location {
     justify-content: flex-start;
 }
 
-#header > div {
+#header>div {
     line-height: 1.5;
 }
 
-#header > div > div {
+#header>div>div {
     margin-right: 1.2em;
 }
 
@@ -209,7 +301,7 @@ h2.section-title {
     font-size: .9rem;
 }
 
-.section > header {
+.section>header {
     position: relative;
 }
 
@@ -217,7 +309,7 @@ h2.section-title {
     margin-right: 0.25em;
 }
 
-.section > header::after {
+.section>header::after {
     position: absolute;
     left: 0;
     top: .7em;
@@ -229,21 +321,21 @@ h2.section-title {
     display: block;
 }
 
-.section.main-summary > section {
+.section.main-summary>section {
     margin: 0;
 }
 
-.section > section > header {
+.section>section>header {
     font-size: 1.38rem;
     position: relative;
     margin-top: .7em;
 }
 
-.section > section > header:first-of-type {
+.section>section>header:first-of-type {
     margin: 0;
 }
 
-.section > section > header .space-left {
+.section>section>header .space-left {
     position: absolute;
     left: -1.56rem;
     top: 5px;
@@ -261,7 +353,7 @@ h2.section-title {
 .studyType,
 .title,
 .awarder {
-    display: inline-block;
+    display: inline;
 }
 
 .position,
@@ -290,7 +382,7 @@ h2.section-title {
 
 .section header .date {
     font-size: 1rem;
-    display: block;
+    display: inline-table;
     padding: .1em 0;
     font-weight: 600;
 }
@@ -331,7 +423,9 @@ ul.courses li:hover {
     font-size: 1.1em;
 }
 
+
 /* Social Media Brand Colors */
+
 .google-plus {
     color: #dd4b39;
 }
@@ -399,7 +493,11 @@ ul.courses li:hover {
     content: '\f16c';
     color: #f68a1f;
     overflow: hidden;
-    height: 40%;
+    height: 100%;
+}
+
+.telegram {
+    color: #2291c3;
 }
 
 #languages .item,
@@ -418,7 +516,9 @@ ul.courses li:hover {
     width: 15em;
 }
 
+
 /* Skill chart */
+
 .level {
     margin-bottom: .5em;
 }
@@ -467,6 +567,10 @@ ul.courses li:hover {
     border-left: 5px solid #ff6d1f;
 }
 
+.toggle-item {
+  visibility: hidden;
+}
+
 /******************
 *	HELPER CLASSES
 ******************/
@@ -486,9 +590,11 @@ ul.courses li:hover {
     margin-bottom: .5rem;
 }
 
+
 /****************
 *		TABLET
 ****************/
+
 @media screen and (min-width: 602px) {
     #resume {
         width: 80%;
@@ -496,61 +602,78 @@ ul.courses li:hover {
     }
 }
 
+
 /****************
 *		LAPTOP
 ****************/
+
 @media screen and (min-width: 1025px) {
     li {
         margin-left: 1.5em;
     }
-
     #resume {
         width: 820px;
-        margin: 2rem auto;
-        opacity: 0;
-        -webkit-transition: opacity .5s ease-in-out;
-        transition: opacity .5s ease-in-out;
+        margin: 2rem auto;      
     }
-
-    .section > section > header .space-left {
+    .section>section>header .space-left {
         opacity: 1;
         cursor: pointer;
     }
-
-    .section > section {
+    .section>section {
         margin-left: 1.67rem;
     }
-
+    .toggle-item {
+        transform: translate(-9999px);
+    }
+    .toggle-item+label {
+        display: block;
+        margin-top: -16px;
+    }
+    .toggle-item:checked+label:after {
+        content: '\f0d7';
+    }
+    .toggle-item+label:after {
+        float: left;
+        cursor: pointer;
+        margin-left: -20px;
+        color: #aaa;
+        font-size: 16px;
+        content: '\f0da';
+        font-family: Fontawesome;
+    }
+    .toggle-item~.item {
+        height: 0;
+        opacity: 0;
+    }
+    .toggle-item:checked~.item {
+        height: auto;
+        opacity: 1;
+        transition: all .5s linear;
+    }
     .company::before,
     .institution::before,
     .organization::before,
     .awarder::before {
         content: "| ";
     }
-
     .header-left {
         float: left;
         width: 70%;
         word-break: normal;
     }
-
     .section header .date {
         float: right;
         padding: .2em;
     }
-
     .display {
         display: none;
     }
-
     .display:not(.none) {
         display: block;
     }
-
 }
 
 @media print {
-
     #resume {
         margin: 0;
         padding: 0;
@@ -559,54 +682,44 @@ ul.courses li:hover {
         line-height: 1.3;
         /*font-family: Arial, Georgia, "Lucida Grande", sans-serif;*/
     }
-
     @page {
         margin: 1cm 1.4cm;
     }
-
     .item-count {
         display: none;
     }
-
     .company::before,
     .institution::before,
     .organization::before,
     .awarder::before {
         content: "at ";
     }
-
     .main-summary {
         padding: 2rem 0;
     }
-
     .section {
         margin: .8rem 0;
         padding: 0;
     }
-
     .section header {
         padding-bottom: .15rem;
     }
-
     .section .location {
         padding-bottom: .15rem;
     }
     .stack-overflow::after {
         content: "";
     }
-
     .fa.social {
         color: #828386;
     }
-
     ul {
         margin-top: .4em;
     }
-
-    ul, li {
+    ul,
+    li {
         padding: 0;
     }
-
     ul.keywords li,
     ul.courses li {
         margin: 0;
@@ -614,1079 +727,924 @@ ul.courses li:hover {
         font-size: .8rem;
         text-transform: lowercase;
     }
-
     ul.keywords li::after,
     ul.courses li::after {
         padding: 0 0 0 .1rem;
         content: " |";
     }
-
     ul.keywords::before,
     ul.courses::before {
         font-size: .8rem;
         font-weight: 600;
     }
-
     ul.keywords::before {
         content: "Skills acquired: ";
     }
-
     #skills .keywords::before {
         content: '';
     }
-
     .section p {
         margin: 0;
         padding: 0;
     }
-
     ul.courses::before {
         content: "Major courses: ";
     }
-
     ul.keywords li:last-of-type::after,
     ul.courses li:last-of-type::after {
         content: "";
     }
-
     .level em {
         font-style: normal;
         padding: .1em 0;
     }
-
     .level .bar {
         display: none;
     }
-
     #profiles .item {
         padding: 0;
     }
-
     .item.display {
         display: block;
         opacity: 1 !important;
     }
 }
 
-		</style>
-	</head>
-
-	<body>
-		<div id="resume">
-				<header id="header" class="clear">
-						<img class="picture" src="images/me.jpg" alt="Nicolas Chauvin"/>
-						<div class="middle">
-							<h1 class="name">Nicolas Chauvin</h1>
-							<h2 class="label">Computer Engineer &amp; Polyvalent Technician</h2>
-						</div>
-
-						<span class="location">
-								<span class="city">
-									Tirana,
-								</span>
-								<span class="countryCode">
-									AL
-								</span>
-						</span>
-                    
-					<div id="contact">
-						<div class="email">
-              <span class="fa fa-envelope-o"></span>
-							<a href="mailto:dev.nicolas@chauv.in">dev.nicolas@chauv.in</a>
-						</div>
-					</div>
-
-					<div id="profiles">
-						<div class="item">
-								<div class="username">
-									<span class="fa fa-github github social"></span>
-									<span class="url">
-										<a href="https://github.com/Grenadingue">Grenadingue</a>
-									</span>
-								</div>
-						</div>
-						<div class="item">
-								<div class="username">
-									<span class="fa fa-linkedin linkedin social"></span>
-									<span class="url">
-										<a href="https://www.linkedin.com/in/nicolas-chauvin-12226063">Nicolas Chauvin</a>
-									</span>
-								</div>
-						</div>
-						<div class="item">
-								<div class="username">
-									<span class="fa fa-soundcloud soundcloud social"></span>
-									<span class="url">
-										<a href="https://soundcloud.com/insanico">insaNico</a>
-									</span>
-								</div>
-						</div>
-						<div class="item">
-								<div class="username">
-									<span class="fa fa-stackoverflow stackoverflow social"></span>
-									<span class="url">
-										<a href="https://stackoverflow.com/story/grenadingue">user:2966296</a>
-									</span>
-								</div>
-						</div>
-					</div>
-				</header>
-
-					<section class="section main-summary">
-						<section>
-							<div><p>Young man from Paris suburb. I love human technologies, from fire mastering to internet, passing through the discover/invention of wheel, metals manufacture, engines, electricty, computing machines, cars, planes, spacecrafts... I would love to dedicate a part of my life to contribute, to construct and improve our technology. Everyday Archlinux user, I am a Linux lover, and seeing myself as a drop of water in the open-source ocean, I try to interact with the knowledge we have at our disposal. Let's now talk a bit about an old dream. When I was young I would have loved to be an aircraft pilot or a racing car one, but it was not possible; working on this machines was a way to get closer of them; that's why I still have this taste for these devices and thrills and spills. So now I let you imagine what looks like all this passions and stuffs mixed together... Merry mess.</p></div>
-						</section>
-					</section>
-
-				<section class="section margin1">
-					<header>
-						<h2 class='section-title'>Skills</h2>
-					</header>
-					<section id="skills">
-						<div class="item">
-							<h3 class="name">
-								Software Developement
-							</h3>
-							<ul class="keywords">
-								<li>C</li>
-								<li>C++</li>
-								<li>Java</li>
-								<li>Qt</li>
-								<li>QML</li>
-								<li>SDL</li>
-								<li>Swift</li>
-								<li>Node.js</li>
-								<li>Python</li>
-								<li>gdb</li>
-								<li>valgrind</li>
-								<li>SQL</li>
-								<li>MongoDB</li>
-								<li>Bash</li>
-								<li>Git</li>
-								<li>Networking</li>
-								<li>Security</li>
-								<li>GUI</li>
-							</ul>
-						</div>
-						<div class="item">
-							<h3 class="name">
-								System/Network Administration
-							</h3>
-							<ul class="keywords">
-								<li>Linux</li>
-								<li>Unix</li>
-								<li>Windows</li>
-								<li>Mac OS X</li>
-								<li>Shell scripting</li>
-								<li>Docker</li>
-								<li>Web servers</li>
-								<li>Web services</li>
-								<li>Cloud</li>
-								<li>Torrent</li>
-								<li>Databases</li>
-								<li>DNS</li>
-								<li>SSH</li>
-								<li>Git</li>
-								<li>Security</li>
-							</ul>
-						</div>
-						<div class="item">
-							<h3 class="name">
-								Software Architecture
-							</h3>
-							<ul class="keywords">
-								<li>Patterns design</li>
-								<li>From scratch</li>
-								<li>From existing</li>
-								<li>MVC</li>
-								<li>VIPER</li>
-								<li>Micro-kernel</li>
-								<li>UML</li>
-								<li>Class diagrams</li>
-								<li>Sequence diagrams</li>
-							</ul>
-						</div>
-						<div class="item">
-							<h3 class="name">
-								Electronics
-							</h3>
-							<ul class="keywords">
-								<li>Tin welding</li>
-								<li>Circuit diagram reading/writting</li>
-								<li>Circuit design</li>
-								<li>Prototyping</li>
-							</ul>
-						</div>
-						<div class="item">
-							<h3 class="name">
-								Automotive Mechanics
-							</h3>
-							<ul class="keywords">
-								<li>Failure research</li>
-								<li>Maintenance</li>
-								<li>Restauration</li>
-								<li>Preparation</li>
-								<li>Petrol/Diesel engines</li>
-								<li>Electrical components</li>
-								<li>OBD Diagnotic tools</li>
-							</ul>
-						</div>
-						<div class="item">
-							<h3 class="name">
-								Web Developement
-							</h3>
-							<ul class="keywords">
-								<li>Node.js</li>
-								<li>Php</li>
-								<li>Javascript</li>
-								<li>Html</li>
-								<li>Css</li>
-							</ul>
-						</div>
-					</section>
-				</section>
-
-				<section class="section">
-					<header>
-						<h2 class='section-title'>Work Experience <span class="item-count">(11)</span></h2>
-					</header>
-					<section id="work">
-								<header>
-									<span class="space-left">
-											<span class="fa fa-caret-down"></span>
-									</span>
-									<div class="position">
-										DPRa, Pedagogical Co-Director
-									</div>
-									<div class="company">
-										EPITECH Albania
-									</div>
-									<div class="date">
-										<span class="startDate">
-											January 2020
-										</span>
-										<span class="endDate">
-											- Current
-										</span>
-									</div>
-								</header>
-
-                                <span class="website">
-                                    <a href="https://epitech.al">https://epitech.al</a>
-                                </span>
-
-
-								<div class="item display" style="opacity:1">
-									<div class="summary">
-										<p><p>[Tirana, Albania] I'm responsible of the 1st and 2nd year EPITECH Bachelor students, which represents around 20 persons. I teach, tutor and accompany the students during their journey.</p></p>
-									</div>
-									<ul class="highlights">
-											<li>Pedagogical Co-Director</li>
-											<li>Pedagogical Assistant</li>
-											<li>Technical Assistant</li>
-											<li>Teaching</li>
-											<li>Tutoring</li>
-											<li>C/C++</li>
-									</ul>
-							</div>
-								<header>
-									<span class="space-left">
-											<span class="fa fa-caret-right"></span>
-									</span>
-									<div class="position">
-										Embedded Software Developer
-									</div>
-									<div class="company">
-										Munic (Formerly Mobile Devices Ingénierie)
-									</div>
-									<div class="date">
-										<span class="startDate">
-											July 2017
-										</span>
-										<span class="endDate">
-											- November 2019
-										</span>
-									</div>
-								</header>
-
-                                <span class="website">
-                                    <a href="https://www.munic.io/about-us/">https://www.munic.io/about-us/</a>
-                                </span>
-
-
-								<div class="item display none" style="opacity:0">
-									<div class="summary">
-										<p><p>[Villejuif, France] I worked on the applicative level of the embedded devices sold by the company. My work on the devices went from userland drivers, to data processing, with the goal of handling OBD-II communications for light/heavy automotive vehicles. I also worked on the last version of the device's emulator, with a goal of easier development, and better software testing. Moreover, I also had been responsible of leading an internal project, during six months, with a team of around 10 interns. During this time I established a one month formation so that the trainess could acquire all the needed technical and organizational skills needed. This formation has then been used widely accross the compnay for newcomers. The project was made up of one mobile application, one website and some cloud services.</p></p>
-									</div>
-									<ul class="highlights">
-											<li>Embedded Software Developer</li>
-											<li>Project Leader</li>
-											<li>Tutoring</li>
-											<li>C/C++</li>
-											<li>Java</li>
-											<li>Shell scripting</li>
-											<li>OBD-II</li>
-											<li>CAN</li>
-											<li>KLine</li>
-											<li>J1939</li>
-											<li>Docker</li>
-											<li>Dart</li>
-											<li>Flutter</li>
-											<li>Node.js</li>
-									</ul>
-							</div>
-								<header>
-									<span class="space-left">
-											<span class="fa fa-caret-right"></span>
-									</span>
-									<div class="position">
-										Software Developer/Hardware Tester
-									</div>
-									<div class="company">
-										Substantiel SAS
-									</div>
-									<div class="date">
-										<span class="startDate">
-											October 2016
-										</span>
-										<span class="endDate">
-											- March 2017
-										</span>
-									</div>
-								</header>
-
-                                <span class="website">
-                                    <a href="http://www.ordissimo.eu/en/about/change-mind">http://www.ordissimo.eu/en/about/change-mind</a>
-                                </span>
-
-
-								<div class="item display none" style="opacity:0">
-									<div class="summary">
-										<p><p>[Montrouge, France] Worked on Ordissimo, a Linux distribution based on Debian, targeting senior users. I've developed a bunch of shell scripts for functionalities unit testing. I started to develop a kind of hardware testing assistant, based on the top of a web server, and supposed to guide a real human through the process of hardware testing.</p></p>
-									</div>
-									<ul class="highlights">
-											<li>Software/Hardware tester</li>
-											<li>Software developer</li>
-											<li>Fullstack web developer</li>
-											<li>Shell scripting</li>
-											<li>Node.js</li>
-											<li>MongoDB</li>
-									</ul>
-							</div>
-								<header>
-									<span class="space-left">
-											<span class="fa fa-caret-right"></span>
-									</span>
-									<div class="position">
-										Lead Developer
-									</div>
-									<div class="company">
-										SAM-Solution
-									</div>
-									<div class="date">
-										<span class="startDate">
-											February 2015
-										</span>
-										<span class="endDate">
-											- February 2017
-										</span>
-									</div>
-								</header>
-
-                                <span class="website">
-                                    <a href="http://eip.epitech.eu/2017/samsolution">http://eip.epitech.eu/2017/samsolution</a>
-                                </span>
-
-
-								<div class="item display none" style="opacity:0">
-									<div class="summary">
-										<p><p>[Paris, France, and Worldwide] Lead developer, member of the human ressources team, technical referent, and software developer. I was a member of a nine students group for a project called the Epitech Innovative Project; the final school project of my Master degree. SAM-Solution is a management tool for IT-infrastructures, allowing to centralize system and software migrations, as well as backup and restoration of user data.</p></p>
-									</div>
-									<ul class="highlights">
-											<li>Lead developer</li>
-											<li>Manager in HR team</li>
-											<li>Backend developer</li>
-											<li>Devops</li>
-											<li>Node.js</li>
-											<li>Shell scripting</li>
-											<li>EIP - Epitech Innovative Project</li>
-									</ul>
-							</div>
-								<header>
-									<span class="space-left">
-											<span class="fa fa-caret-right"></span>
-									</span>
-									<div class="position">
-										Software Developer
-									</div>
-									<div class="company">
-										Creatiwity
-									</div>
-									<div class="date">
-										<span class="startDate">
-											April 2015
-										</span>
-										<span class="endDate">
-											- July 2015
-										</span>
-									</div>
-								</header>
-
-                                <span class="website">
-                                    <a href="https://creatiwity.net/portfolio/detail/23-monalbumphoto">https://creatiwity.net/portfolio/detail/23-monalbumphoto</a>
-                                </span>
-
-
-								<div class="item display none" style="opacity:0">
-									<div class="summary">
-										<p><p>[Paris 12, France] I worked on the "Mon album photo" iPad application, in a team of four people, including software architects, developers, and a designer. The main goal was to make the first version of the application; its concept is to import images from multiple sources and to easily compile them on a photo album, and many other mediums.</p></p>
-									</div>
-									<ul class="highlights">
-											<li>Mobile developer</li>
-											<li>Swift</li>
-											<li>Objective-C</li>
-											<li>C/C++</li>
-											<li>iOS</li>
-											<li>iPad</li>
-											<li>XCode</li>
-											<li>Mac OS X</li>
-									</ul>
-							</div>
-								<header>
-									<span class="space-left">
-											<span class="fa fa-caret-right"></span>
-									</span>
-									<div class="position">
-										Software Developer
-									</div>
-									<div class="company">
-										Realtime Art Studio
-									</div>
-									<div class="date">
-										<span class="startDate">
-											September 2014
-										</span>
-										<span class="endDate">
-											- January 2015
-										</span>
-									</div>
-								</header>
-
-                                <span class="website">
-                                    <a href="http://www.realtime-art.net">http://www.realtime-art.net</a>
-                                </span>
-
-
-								<div class="item display none" style="opacity:0">
-									<div class="summary">
-										<p><p>[Paris 11, France] Follow-up for the "Playy.tv" project. My main goal was to architect and develop a software controller able to receive and execute remote instructions from internet and harware buttons. Restarted software from scratch for full OS portability.</p></p>
-									</div>
-									<ul class="highlights">
-											<li>Software architect</li>
-											<li>Software developer</li>
-											<li>C++</li>
-											<li>Qt</li>
-											<li>QML</li>
-											<li>RS-232</li>
-											<li>Socket.io</li>
-											<li>Arduino</li>
-											<li>Cross-platform</li>
-											<li>Windows</li>
-											<li>Linux</li>
-											<li>Mac OS X</li>
-									</ul>
-							</div>
-								<header>
-									<span class="space-left">
-											<span class="fa fa-caret-right"></span>
-									</span>
-									<div class="position">
-										Software Developer
-									</div>
-									<div class="company">
-										Realtime Art Studio
-									</div>
-									<div class="date">
-										<span class="startDate">
-											September 2013
-										</span>
-										<span class="endDate">
-											- December 2013
-										</span>
-									</div>
-								</header>
-
-                                <span class="website">
-                                    <a href="http://www.realtime-art.net">http://www.realtime-art.net</a>
-                                </span>
-
-
-								<div class="item display none" style="opacity:0">
-									<div class="summary">
-										<p><p>[Paris 11, France] I worked on a project named "Playy.tv". My main goal was to architect and develop a software controller able to receive and execute remote instructions from internet and harware buttons.</p></p>
-									</div>
-									<ul class="highlights">
-											<li>Software architect</li>
-											<li>Software developer</li>
-											<li>C</li>
-											<li>WinAPI</li>
-											<li>RS-232</li>
-											<li>Arduino</li>
-											<li>Windows</li>
-											<li>System administration</li>
-											<li>Network administration</li>
-									</ul>
-							</div>
-								<header>
-									<span class="space-left">
-											<span class="fa fa-caret-right"></span>
-									</span>
-									<div class="position">
-										Automotive Mechanic Technician
-									</div>
-									<div class="company">
-										0-one
-									</div>
-									<div class="date">
-										<span class="startDate">
-											June 2011
-										</span>
-										<span class="endDate">
-											- July 2012
-										</span>
-									</div>
-								</header>
-
-                                <span class="website">
-                                    <a href="http://www.0one.fr">http://www.0one.fr</a>
-                                </span>
-
-
-								<div class="item display none" style="opacity:0">
-									<div class="summary">
-										<p><p>[Le Perray-en-Yvelines, France]</p></p>
-									</div>
-									<ul class="highlights">
-											<li>Mechanics</li>
-											<li>Electronics</li>
-											<li>Machining</li>
-											<li>Manufacture</li>
-											<li>Classic/Racing/Usual cars</li>
-											<li>Restauration</li>
-											<li>Preparation</li>
-											<li>Maintenance</li>
-											<li>Reparation</li>
-									</ul>
-							</div>
-								<header>
-									<span class="space-left">
-											<span class="fa fa-caret-right"></span>
-									</span>
-									<div class="position">
-										Automotive Mechanic Technician
-									</div>
-									<div class="company">
-										Garage de Maison Blanche
-									</div>
-									<div class="date">
-										<span class="startDate">
-											March 2011
-										</span>
-										<span class="endDate">
-											- April 2011
-										</span>
-									</div>
-								</header>
-
-
-
-								<div class="item display none" style="opacity:0">
-									<div class="summary">
-										<p><p>[Les Essarts-le-roi, France]</p></p>
-									</div>
-									<ul class="highlights">
-											<li>Mechanics</li>
-											<li>English classic/Usual cars</li>
-											<li>Restauration</li>
-											<li>Maintenance</li>
-											<li>Reparation</li>
-									</ul>
-							</div>
-								<header>
-									<span class="space-left">
-											<span class="fa fa-caret-right"></span>
-									</span>
-									<div class="position">
-										Automotive Mechanic Technician
-									</div>
-									<div class="company">
-										Toyota Auto-Arita
-									</div>
-									<div class="date">
-										<span class="startDate">
-											February 2011
-										</span>
-										<span class="endDate">
-											- March 2011
-										</span>
-									</div>
-								</header>
-
-                                <span class="website">
-                                    <a href="http://www.autoarita.fi">http://www.autoarita.fi</a>
-                                </span>
-
-
-								<div class="item display none" style="opacity:0">
-									<div class="summary">
-										<p><p>[Järvenpää, Finland]</p></p>
-									</div>
-									<ul class="highlights">
-											<li>Mechanics</li>
-											<li>Electronics</li>
-											<li>Maintenance</li>
-											<li>Reparation</li>
-											<li>English</li>
-									</ul>
-							</div>
-								<header>
-									<span class="space-left">
-											<span class="fa fa-caret-right"></span>
-									</span>
-									<div class="position">
-										Automotive Mechanic Technician
-									</div>
-									<div class="company">
-										Renault Garage DMB
-									</div>
-									<div class="date">
-										<span class="startDate">
-											June 2009
-										</span>
-										<span class="endDate">
-											- July 2009
-										</span>
-									</div>
-								</header>
-
-
-
-								<div class="item display none" style="opacity:0">
-									<div class="summary">
-										<p><p>[Le Perray-en-Yvelines, France]</p></p>
-									</div>
-									<ul class="highlights">
-											<li>Mechanics</li>
-											<li>Maintenance</li>
-											<li>Reparation</li>
-									</ul>
-							</div>
-					</section>
-				</section>
-
-
-				<section class="section">
-					<header>
-						<h2 class='section-title'>Education <span class="item-count">(5)</span></h2>
-					</header>
-					<section id="education">
-							<header class="clear">
-								<span class="space-left">
-										<span class="fa fa-caret-down"></span>
-								</span>
-								<div class="header-left">
-										<div class="studyType">
-											[MASTER 2] Expert in
-										</div>
-										<div class="area">
-											Information Technologies
-										</div>
-										<div class="institution">
-											EPITECH - European Institute of Technology
-										</div>
-								</div>
-								<div class="date">
-									<span class="startDate">
-										2015
-									</span>
-									<span class="endDate">
-										- 2018
-									</span>
-								</div>
-							</header>
-
-
-                <ul class="courses">
-                    <li>EIP - Epitech Innovative Project</li>
-                    <li>Artificial intelligence - Evolutionary programming</li>
-                    <li>Ethical hacking</li>
-                    <li>Network security</li>
-                    <li>OpenGL</li>
-                    <li>User experience</li>
-                </ul>
-
-								<div class="item display" style="opacity:1">
-							</div>
-							<header class="clear">
-								<span class="space-left">
-										<span class="fa fa-caret-right"></span>
-								</span>
-								<div class="header-left">
-										<div class="studyType">
-											[MASTER] Master in
-										</div>
-										<div class="area">
-											Computer Science &amp; Engineering
-										</div>
-										<div class="institution">
-											MIT - Manipal Institute of Technology
-										</div>
-								</div>
-								<div class="date">
-									<span class="startDate">
-										2015
-									</span>
-									<span class="endDate">
-										- 2016
-									</span>
-								</div>
-							</header>
-
-
-                <ul class="courses">
-                    <li>International exchange program</li>
-                    <li>10 months in India</li>
-                    <li>CSE - Distributed computing systems</li>
-                    <li>CSE - Security architecture design and analysis</li>
-                    <li>ICT - Theoretical fundations of computer science</li>
-                    <li>ICT - Object oriented analysis and design</li>
-                    <li>MCA - Advanced data structures</li>
-                    <li>English</li>
-                    <li>Culture</li>
-                </ul>
-
-								<div class="item display none" style="opacity:0">
-							</div>
-							<header class="clear">
-								<span class="space-left">
-										<span class="fa fa-caret-right"></span>
-								</span>
-								<div class="header-left">
-										<div class="studyType">
-											[B.TECH] Bachelor in
-										</div>
-										<div class="area">
-											Information Technology
-										</div>
-										<div class="institution">
-											EPITECH - European Institute of Technology
-										</div>
-								</div>
-								<div class="date">
-									<span class="startDate">
-										2012
-									</span>
-									<span class="endDate">
-										- 2015
-									</span>
-								</div>
-							</header>
-
-
-                <ul class="courses">
-                    <li>3 weeks intensive Unix and C lab seminar</li>
-                    <li>3 weeks intensive C++ lab seminar</li>
-                    <li>Elementary programming</li>
-                    <li>Unix advanced system programming</li>
-                    <li>x86_64 assembly</li>
-                    <li>Hacking and security basics</li>
-                    <li>Networking</li>
-                    <li>Graphical user interfaces</li>
-                    <li>SQL</li>
-                    <li>Network administration</li>
-                    <li>System administration</li>
-                    <li>UML</li>
-                    <li>English</li>
-                    <li>French</li>
-                </ul>
-
-								<div class="item display none" style="opacity:0">
-							</div>
-							<header class="clear">
-								<span class="space-left">
-										<span class="fa fa-caret-right"></span>
-								</span>
-								<div class="header-left">
-										<div class="studyType">
-											[BAC PRO] Baccalauréat in
-										</div>
-										<div class="area">
-											Automotive Mechanics &amp; Technology
-										</div>
-										<div class="institution">
-											GARAC - National School of Automotive Professions
-										</div>
-								</div>
-								<div class="date">
-									<span class="startDate">
-										2010
-									</span>
-									<span class="endDate">
-										- 2012
-									</span>
-								</div>
-							</header>
-
-
-                <ul class="courses">
-                    <li>Automotive workshop</li>
-                    <li>Automotive technologies</li>
-                    <li>Functional and structural analysis</li>
-                    <li>Mathematics</li>
-                    <li>Physics</li>
-                    <li>English</li>
-                    <li>French</li>
-                </ul>
-
-								<div class="item display none" style="opacity:0">
-							</div>
-							<header class="clear">
-								<span class="space-left">
-										<span class="fa fa-caret-right"></span>
-								</span>
-								<div class="header-left">
-										<div class="studyType">
-											[BEP] Vocational Qualification in
-										</div>
-										<div class="area">
-											Automotive Mechanics &amp; Technology
-										</div>
-										<div class="institution">
-											GARAC - National School of Automotive Professions
-										</div>
-								</div>
-								<div class="date">
-									<span class="startDate">
-										2008
-									</span>
-									<span class="endDate">
-										- 2010
-									</span>
-								</div>
-							</header>
-
-
-                <ul class="courses">
-                    <li>Automotive workshop</li>
-                    <li>Automotive technologies</li>
-                    <li>Functional and structural analysis</li>
-                    <li>Mathematics</li>
-                    <li>Physics</li>
-                    <li>English</li>
-                    <li>French</li>
-                </ul>
-
-								<div class="item display none" style="opacity:0">
-							</div>
-					</section>
-				</section>
-
-				<section class="section">
-					<header>
-						<h2 class='section-title'>Awards</h2>
-					</header>
-					<section id="awards">
-						<header class="clear">
-							<span class="space-left">
-									<span class="fa fa-caret-down"></span>
-							</span>
-							<div class="header-left">
-									<div class="title">
-										&quot;Noise&quot; Contest
-									</div>
-									<div class="awarder">
-										GARAC - National School of Automotive Professions
-									</div>
-							</div>
-								<div class="date">
-									2011
-								</div>
-						</header>
-							<div class="item display" style="opacity:1">
-								<div class="summary">
-									<p><p>An individual school contest between four classrooms, around noise and sound, based on physics, mathematics, french language, natural sciences, and practical measuring processes. 1st price.</p></p>
-								</div>
-						</div>
-					</section>
-				</section>
-
-
-				<section class="section margin1">
-					<header>
-						<h2 class='section-title'>Languages</h2>
-					</header>
-					<section id="languages">
-							<div class="display">
-										<h3 class="language">
-											French
-										</h3>
-								<div class="item">
-										<div class="level fluency native speaker">
-											<em>Native speaker</em>
-											<div class="bar"></div>
-										</div>
-								</div>
-							</div>
-							<div class="display">
-										<h3 class="language">
-											English
-										</h3>
-								<div class="item">
-										<div class="level fluency fluent">
-											<em>Fluent</em>
-											<div class="bar"></div>
-										</div>
-								</div>
-							</div>
-							<div class="display">
-										<h3 class="language">
-											Spanish
-										</h3>
-								<div class="item">
-										<div class="level fluency begginer">
-											<em>Begginer</em>
-											<div class="bar"></div>
-										</div>
-								</div>
-							</div>
-					</section>
-				</section>
-
-				<section class="section margin1">
-					<header>
-						<h2 class='section-title' class='section-title'>Interests</h2>
-					</header>
-					<section id="interests">
-							<div class="item">
-									<h3 class="name">
-										Cooking
-									</h3>
-									<ul class="keywords">
-											<li>Eating</li>
-											<li>Cheese</li>
-											<li>Cheeeese</li>
-											<li>Cheese</li>
-											<li>World cooking</li>
-									</ul>
-							</div>
-							<div class="item">
-									<h3 class="name">
-										Politics
-									</h3>
-									<ul class="keywords">
-											<li>Education</li>
-											<li>Human rights</li>
-											<li>Civical rights</li>
-											<li>Open democracy</li>
-									</ul>
-							</div>
-							<div class="item">
-									<h3 class="name">
-										Technological watch
-									</h3>
-									<ul class="keywords">
-											<li>Open-source world</li>
-											<li>Automotive technologies</li>
-											<li>Inter-planetary distributed systems</li>
-											<li>Human organization tools</li>
-									</ul>
-							</div>
-							<div class="item">
-									<h3 class="name">
-										Human languages
-									</h3>
-									<ul class="keywords">
-											<li>Etymology</li>
-											<li>Cross-cultures dependancies</li>
-											<li>Mathematics</li>
-											<li>Programming languages</li>
-											<li>Street-art</li>
-									</ul>
-							</div>
-							<div class="item">
-									<h3 class="name">
-										Sports
-									</h3>
-									<ul class="keywords">
-											<li>Mountain bike</li>
-											<li>Karting</li>
-											<li>Ski</li>
-											<li>Climb</li>
-									</ul>
-							</div>
-							<div class="item">
-									<h3 class="name">
-										Motor races
-									</h3>
-									<ul class="keywords">
-											<li>24h of Le Mans</li>
-											<li>WRC</li>
-											<li>Endurance</li>
-											<li>Rallye</li>
-											<li>Gaming simulation</li>
-									</ul>
-							</div>
-					</section>
-				</section>
-
-		</div>
-		<script>
-			(function(){
-				var elements = document.querySelector("#resume");
-
-				// adding the element to the all container
-				// and using event delegation
-				elements.addEventListener("click", function(e) {
-					var current = e.target;
-					// font awesone arrows
-					var arrowRight = current.classList.contains('fa-caret-right');
-					var arrowDown = current.classList.contains('fa-caret-down');
-
-					if(current && current.nodeName == "SPAN" && (arrowRight || arrowDown)) {
-						var header = e.target.parentNode.parentNode;
-						var item = header.nextSibling;
-
-						// select the .item element from the siblings
-						while (!item || !item.classList || !item.classList.contains('item')) {
-							item = item.nextSibling;
-						}
-
-						// hide or show the .item element
-						item.classList.toggle('none');
-
-						// if the .item is going to be shown then imcrease is opacity
-						// every 20 milliseconds to make a fadeIn effect
-						if (!item.classList.contains('none')) {
-							var id = setInterval(function() {
-								item.style.opacity = parseFloat(item.style.opacity) + 0.09;
-								if (parseFloat(item.style.opacity) >= 1) {
-									clearInterval(id);
-								}
-							}, 20);
-						} else {
-							item.style.opacity = 0;
-						}
-
-						current.classList.toggle('fa-caret-right');
-						current.classList.toggle('fa-caret-down');
-					}
-
-				}, false);
-
-				// Make the #resume visible only when the DOM is fully loaded
-				elements.style.opacity = '1';
-			})();
-		</script>
-	</body>
-
+  </style>
+  
+  </head>
+  <body>
+  
+  <div id="resume">
+    	<header id="header" class="clear">
+    		<img class="picture" src="images/me.jpg" alt="Nicolas Chauvin" />
+    		<div class="middle">
+    			<h1 class="name">Nicolas Chauvin</h1>
+    			<h2 class="label">Computer Engineer &amp; Polyvalent Technician</h2>
+    		</div>
+    		
+    		<span class="location">
+    			<span class="city">Tirana,</span> 
+    			<span class="countryCode">AL</span> 
+    		</span>
+    		
+    
+    		<div id="contact">
+    			<div class="email">
+    				<span class="fa fa-envelope-o"></span>
+    				<a href="mailto:nicolas-public@chauv.in">nicolas-public@chauv.in</a>
+    			</div>
+    		</div>
+    
+    		<div id="profiles">
+    			<div class="item">
+    				<div class="username">
+    					<span class="fa fa-github github social"></span>
+    					<span class="url">
+    						<a target="_blank" href="https://github.com/Grenadingue">Grenadingue</a>
+    					</span> 
+    				</div>
+    			</div>
+    			<div class="item">
+    				<div class="username">
+    					<span class="fa fa-linkedin linkedin social"></span>
+    					<span class="url">
+    						<a target="_blank" href="https://www.linkedin.com/in/nicolas-chauvin-12226063">Nicolas Chauvin</a>
+    					</span> 
+    				</div>
+    			</div>
+    			<div class="item">
+    				<div class="username">
+    					<span class="fa fa-soundcloud soundcloud social"></span>
+    					<span class="url">
+    						<a target="_blank" href="https://soundcloud.com/insanico">insaNico</a>
+    					</span> 
+    				</div>
+    			</div>
+    			<div class="item">
+    				<div class="username">
+    					<span class="fa fa-stackoverflow stackoverflow social"></span>
+    					<span class="url">
+    						<a target="_blank" href="https://stackoverflow.com/story/grenadingue">user:2966296</a>
+    					</span> 
+    				</div>
+    			</div>
+    		</div>
+    	</header>
+    
+    	<section class="section main-summary">
+    		<section>
+    			<div><p>Young man from Paris suburb. I love human technologies, from fire mastering to internet, passing through the discover/invention of wheel, metals manufacture, engines, electricty, computing machines, cars, planes, spacecrafts... I would love to dedicate a part of my life to contribute, to construct and improve our technology. Everyday Archlinux user, I am a Linux lover, and seeing myself as a drop of water in the open-source ocean, I try to interact with the knowledge we have at our disposal. Let's now talk a bit about an old dream. When I was young I would have loved to be an aircraft pilot or a racing car one, but it was not possible; working on this machines was a way to get closer of them; that's why I still have this taste for these devices and thrills and spills. So now I let you imagine what looks like all this passions and stuffs mixed together... Merry mess.</p></div>
+    		</section>
+    	</section>
+    
+    <section class="section margin1">
+    	<header>
+    		<h2 class='section-title'>Skills</h2>
+    	</header>
+    	<section id="skills">
+    		<div class="item">
+    			<h3 class="name">
+    				Software Developement
+    			</h3>
+    			 			<ul class="keywords">
+    				<li>C</li>
+    				<li>C++</li>
+    				<li>Java</li>
+    				<li>Qt</li>
+    				<li>QML</li>
+    				<li>SDL</li>
+    				<li>Swift</li>
+    				<li>Node.js</li>
+    				<li>Python</li>
+    				<li>gdb</li>
+    				<li>valgrind</li>
+    				<li>SQL</li>
+    				<li>MongoDB</li>
+    				<li>Bash</li>
+    				<li>Git</li>
+    				<li>Networking</li>
+    				<li>Security</li>
+    				<li>GUI</li>
+    			</ul>
+    		</div>
+    		<div class="item">
+    			<h3 class="name">
+    				System/Network Administration
+    			</h3>
+    			 			<ul class="keywords">
+    				<li>Linux</li>
+    				<li>Unix</li>
+    				<li>Windows</li>
+    				<li>Mac OS X</li>
+    				<li>Shell scripting</li>
+    				<li>Docker</li>
+    				<li>Web servers</li>
+    				<li>Web services</li>
+    				<li>Cloud</li>
+    				<li>Torrent</li>
+    				<li>Databases</li>
+    				<li>DNS</li>
+    				<li>SSH</li>
+    				<li>Git</li>
+    				<li>Security</li>
+    			</ul>
+    		</div>
+    		<div class="item">
+    			<h3 class="name">
+    				Software Architecture
+    			</h3>
+    			 			<ul class="keywords">
+    				<li>Patterns design</li>
+    				<li>From scratch</li>
+    				<li>From existing</li>
+    				<li>MVC</li>
+    				<li>VIPER</li>
+    				<li>Micro-kernel</li>
+    				<li>UML</li>
+    				<li>Class diagrams</li>
+    				<li>Sequence diagrams</li>
+    			</ul>
+    		</div>
+    		<div class="item">
+    			<h3 class="name">
+    				Electronics
+    			</h3>
+    			 			<ul class="keywords">
+    				<li>Tin welding</li>
+    				<li>Circuit diagram reading/writting</li>
+    				<li>Circuit design</li>
+    				<li>Prototyping</li>
+    			</ul>
+    		</div>
+    		<div class="item">
+    			<h3 class="name">
+    				Automotive Mechanics
+    			</h3>
+    			 			<ul class="keywords">
+    				<li>Failure research</li>
+    				<li>Maintenance</li>
+    				<li>Restauration</li>
+    				<li>Preparation</li>
+    				<li>Petrol/Diesel engines</li>
+    				<li>Electrical components</li>
+    				<li>OBD Diagnotic tools</li>
+    			</ul>
+    		</div>
+    		<div class="item">
+    			<h3 class="name">
+    				Web Developement
+    			</h3>
+    			 			<ul class="keywords">
+    				<li>Node.js</li>
+    				<li>Php</li>
+    				<li>Javascript</li>
+    				<li>Html</li>
+    				<li>Css</li>
+    			</ul>
+    		</div>
+    	</section>
+    </section>
+    <section class="section">
+      <header>
+        <h2 class='section-title'>Work Experience <span class="item-count">(11)</span></h2>
+      </header>
+    
+      <section id="work">
+        <section class="work-item">
+    
+            <input id="work-item-0" type="checkbox" class="toggle-item" checked="checked" />
+            <label for="work-item-0"></label>
+    
+    			<header>
+    				<div class="position">DPRa, Pedagogical Co-Director</div>
+    				<div class="company">EPITECH Albania</div>
+    				<div class="date">
+    				  <span class="startDate">January 2020</span> 
+    					<span class="endDate">- Current</span>
+    				</div>
+    			</header>
+    			
+        	<span class="website">
+        		<a target="_blank" href="https://epitech.al">https://epitech.al</a>
+        	</span>      	<div class="item" id="work-item">
+            <div class="summary">
+              <p><p>[Tirana, Albania] I'm responsible of the 1st and 2nd year EPITECH Bachelor students, which represents around 20 persons. I teach, tutor and accompany the students during their journey.</p></p>
+            </div>
+            <ul class="highlights">
+                <li><p>Pedagogical Co-Director</p></li>
+                <li><p>Pedagogical Assistant</p></li>
+                <li><p>Technical Assistant</p></li>
+                <li><p>Teaching</p></li>
+                <li><p>Tutoring</p></li>
+                <li><p>C/C++</p></li>
+            </ul>
+        	</div>
+        </section>
+        <section class="work-item">
+    
+            <input id="work-item-1" type="checkbox" class="toggle-item" />
+            <label for="work-item-1"></label>
+    
+    			<header>
+    				<div class="position">Embedded Software Developer</div>
+    				<div class="company">Munic (Formerly Mobile Devices Ingénierie)</div>
+    				<div class="date">
+    				  <span class="startDate">July 2017</span> 
+    					<span class="endDate">- November 2019</span> 
+    				</div>
+    			</header>
+    			
+        	<span class="website">
+        		<a target="_blank" href="https://www.munic.io/about-us/">https://www.munic.io/about-us/</a>
+        	</span>      	<div class="item" id="work-item">
+            <div class="summary">
+              <p><p>[Villejuif, France] I worked on the applicative level of the embedded devices sold by the company. My work on the devices went from userland drivers, to data processing, with the goal of handling OBD-II communications for light/heavy automotive vehicles. I also worked on the last version of the device's emulator, with a goal of easier development, and better software testing. Moreover, I also had been responsible of leading an internal project, during six months, with a team of around 10 interns. During this time I established a one month formation so that the trainess could acquire all the needed technical and organizational skills needed. This formation has then been used widely accross the compnay for newcomers. The project was made up of one mobile application, one website and some cloud services.</p></p>
+            </div>
+            <ul class="highlights">
+                <li><p>Embedded Software Developer</p></li>
+                <li><p>Project Leader</p></li>
+                <li><p>Tutoring</p></li>
+                <li><p>C/C++</p></li>
+                <li><p>Java</p></li>
+                <li><p>Shell scripting</p></li>
+                <li><p>OBD-II</p></li>
+                <li><p>CAN</p></li>
+                <li><p>KLine</p></li>
+                <li><p>J1939</p></li>
+                <li><p>Docker</p></li>
+                <li><p>Dart</p></li>
+                <li><p>Flutter</p></li>
+                <li><p>Node.js</p></li>
+            </ul>
+        	</div>
+        </section>
+        <section class="work-item">
+    
+            <input id="work-item-2" type="checkbox" class="toggle-item" />
+            <label for="work-item-2"></label>
+    
+    			<header>
+    				<div class="position">Software Developer/Hardware Tester</div>
+    				<div class="company">Substantiel SAS</div>
+    				<div class="date">
+    				  <span class="startDate">October 2016</span> 
+    					<span class="endDate">- March 2017</span> 
+    				</div>
+    			</header>
+    			
+        	<span class="website">
+        		<a target="_blank" href="http://www.ordissimo.eu/en/about/change-mind">http://www.ordissimo.eu/en/about/change-mind</a>
+        	</span>      	<div class="item" id="work-item">
+            <div class="summary">
+              <p><p>[Montrouge, France] Worked on Ordissimo, a Linux distribution based on Debian, targeting senior users. I've developed a bunch of shell scripts for functionalities unit testing. I started to develop a kind of hardware testing assistant, based on the top of a web server, and supposed to guide a real human through the process of hardware testing.</p></p>
+            </div>
+            <ul class="highlights">
+                <li><p>Software/Hardware tester</p></li>
+                <li><p>Software developer</p></li>
+                <li><p>Fullstack web developer</p></li>
+                <li><p>Shell scripting</p></li>
+                <li><p>Node.js</p></li>
+                <li><p>MongoDB</p></li>
+            </ul>
+        	</div>
+        </section>
+        <section class="work-item">
+    
+            <input id="work-item-3" type="checkbox" class="toggle-item" />
+            <label for="work-item-3"></label>
+    
+    			<header>
+    				<div class="position">Lead Developer</div>
+    				<div class="company">SAM-Solution</div>
+    				<div class="date">
+    				  <span class="startDate">February 2015</span> 
+    					<span class="endDate">- February 2017</span> 
+    				</div>
+    			</header>
+    			
+        	<span class="website">
+        		<a target="_blank" href="http://eip.epitech.eu/2017/samsolution">http://eip.epitech.eu/2017/samsolution</a>
+        	</span>      	<div class="item" id="work-item">
+            <div class="summary">
+              <p><p>[Paris, France, and Worldwide] Lead developer, member of the human ressources team, technical referent, and software developer. I was a member of a nine students group for a project called the Epitech Innovative Project; the final school project of my Master degree. SAM-Solution is a management tool for IT-infrastructures, allowing to centralize system and software migrations, as well as backup and restoration of user data.</p></p>
+            </div>
+            <ul class="highlights">
+                <li><p>Lead developer</p></li>
+                <li><p>Manager in HR team</p></li>
+                <li><p>Backend developer</p></li>
+                <li><p>Devops</p></li>
+                <li><p>Node.js</p></li>
+                <li><p>Shell scripting</p></li>
+                <li><p>EIP - Epitech Innovative Project</p></li>
+            </ul>
+        	</div>
+        </section>
+        <section class="work-item">
+    
+            <input id="work-item-4" type="checkbox" class="toggle-item" />
+            <label for="work-item-4"></label>
+    
+    			<header>
+    				<div class="position">Software Developer</div>
+    				<div class="company">Creatiwity</div>
+    				<div class="date">
+    				  <span class="startDate">April 2015</span> 
+    					<span class="endDate">- July 2015</span> 
+    				</div>
+    			</header>
+    			
+        	<span class="website">
+        		<a target="_blank" href="https://creatiwity.net/portfolio/detail/23-monalbumphoto">https://creatiwity.net/portfolio/detail/23-monalbumphoto</a>
+        	</span>      	<div class="item" id="work-item">
+            <div class="summary">
+              <p><p>[Paris 12, France] I worked on the "Mon album photo" iPad application, in a team of four people, including software architects, developers, and a designer. The main goal was to make the first version of the application; its concept is to import images from multiple sources and to easily compile them on a photo album, and many other mediums.</p></p>
+            </div>
+            <ul class="highlights">
+                <li><p>Mobile developer</p></li>
+                <li><p>Swift</p></li>
+                <li><p>Objective-C</p></li>
+                <li><p>C/C++</p></li>
+                <li><p>iOS</p></li>
+                <li><p>iPad</p></li>
+                <li><p>XCode</p></li>
+                <li><p>Mac OS X</p></li>
+            </ul>
+        	</div>
+        </section>
+        <section class="work-item">
+    
+            <input id="work-item-5" type="checkbox" class="toggle-item" />
+            <label for="work-item-5"></label>
+    
+    			<header>
+    				<div class="position">Software Developer</div>
+    				<div class="company">Realtime Art Studio</div>
+    				<div class="date">
+    				  <span class="startDate">September 2014</span> 
+    					<span class="endDate">- January 2015</span> 
+    				</div>
+    			</header>
+    			
+        	<span class="website">
+        		<a target="_blank" href="http://www.realtime-art.net">http://www.realtime-art.net</a>
+        	</span>      	<div class="item" id="work-item">
+            <div class="summary">
+              <p><p>[Paris 11, France] Follow-up for the "Playy.tv" project. My main goal was to architect and develop a software controller able to receive and execute remote instructions from internet and harware buttons. Restarted software from scratch for full OS portability.</p></p>
+            </div>
+            <ul class="highlights">
+                <li><p>Software architect</p></li>
+                <li><p>Software developer</p></li>
+                <li><p>C++</p></li>
+                <li><p>Qt</p></li>
+                <li><p>QML</p></li>
+                <li><p>RS-232</p></li>
+                <li><p>Socket.io</p></li>
+                <li><p>Arduino</p></li>
+                <li><p>Cross-platform</p></li>
+                <li><p>Windows</p></li>
+                <li><p>Linux</p></li>
+                <li><p>Mac OS X</p></li>
+            </ul>
+        	</div>
+        </section>
+        <section class="work-item">
+    
+            <input id="work-item-6" type="checkbox" class="toggle-item" />
+            <label for="work-item-6"></label>
+    
+    			<header>
+    				<div class="position">Software Developer</div>
+    				<div class="company">Realtime Art Studio</div>
+    				<div class="date">
+    				  <span class="startDate">September 2013</span> 
+    					<span class="endDate">- December 2013</span> 
+    				</div>
+    			</header>
+    			
+        	<span class="website">
+        		<a target="_blank" href="http://www.realtime-art.net">http://www.realtime-art.net</a>
+        	</span>      	<div class="item" id="work-item">
+            <div class="summary">
+              <p><p>[Paris 11, France] I worked on a project named "Playy.tv". My main goal was to architect and develop a software controller able to receive and execute remote instructions from internet and harware buttons.</p></p>
+            </div>
+            <ul class="highlights">
+                <li><p>Software architect</p></li>
+                <li><p>Software developer</p></li>
+                <li><p>C</p></li>
+                <li><p>WinAPI</p></li>
+                <li><p>RS-232</p></li>
+                <li><p>Arduino</p></li>
+                <li><p>Windows</p></li>
+                <li><p>System administration</p></li>
+                <li><p>Network administration</p></li>
+            </ul>
+        	</div>
+        </section>
+        <section class="work-item">
+    
+            <input id="work-item-7" type="checkbox" class="toggle-item" />
+            <label for="work-item-7"></label>
+    
+    			<header>
+    				<div class="position">Automotive Mechanic Technician</div>
+    				<div class="company">0-one</div>
+    				<div class="date">
+    				  <span class="startDate">June 2011</span> 
+    					<span class="endDate">- July 2012</span> 
+    				</div>
+    			</header>
+    			
+        	<span class="website">
+        		<a target="_blank" href="http://www.0one.fr">http://www.0one.fr</a>
+        	</span>      	<div class="item" id="work-item">
+            <div class="summary">
+              <p><p>[Le Perray-en-Yvelines, France]</p></p>
+            </div>
+            <ul class="highlights">
+                <li><p>Mechanics</p></li>
+                <li><p>Electronics</p></li>
+                <li><p>Machining</p></li>
+                <li><p>Manufacture</p></li>
+                <li><p>Classic/Racing/Usual cars</p></li>
+                <li><p>Restauration</p></li>
+                <li><p>Preparation</p></li>
+                <li><p>Maintenance</p></li>
+                <li><p>Reparation</p></li>
+            </ul>
+        	</div>
+        </section>
+        <section class="work-item">
+    
+            <input id="work-item-8" type="checkbox" class="toggle-item" />
+            <label for="work-item-8"></label>
+    
+    			<header>
+    				<div class="position">Automotive Mechanic Technician</div>
+    				<div class="company">Garage de Maison Blanche</div>
+    				<div class="date">
+    				  <span class="startDate">March 2011</span> 
+    					<span class="endDate">- April 2011</span> 
+    				</div>
+    			</header>
+    			
+         	<div class="item" id="work-item">
+            <div class="summary">
+              <p><p>[Les Essarts-le-roi, France]</p></p>
+            </div>
+            <ul class="highlights">
+                <li><p>Mechanics</p></li>
+                <li><p>English classic/Usual cars</p></li>
+                <li><p>Restauration</p></li>
+                <li><p>Maintenance</p></li>
+                <li><p>Reparation</p></li>
+            </ul>
+        	</div>
+        </section>
+        <section class="work-item">
+    
+            <input id="work-item-9" type="checkbox" class="toggle-item" />
+            <label for="work-item-9"></label>
+    
+    			<header>
+    				<div class="position">Automotive Mechanic Technician</div>
+    				<div class="company">Toyota Auto-Arita</div>
+    				<div class="date">
+    				  <span class="startDate">February 2011</span> 
+    					<span class="endDate">- March 2011</span> 
+    				</div>
+    			</header>
+    			
+        	<span class="website">
+        		<a target="_blank" href="http://www.autoarita.fi">http://www.autoarita.fi</a>
+        	</span>      	<div class="item" id="work-item">
+            <div class="summary">
+              <p><p>[Järvenpää, Finland]</p></p>
+            </div>
+            <ul class="highlights">
+                <li><p>Mechanics</p></li>
+                <li><p>Electronics</p></li>
+                <li><p>Maintenance</p></li>
+                <li><p>Reparation</p></li>
+                <li><p>English</p></li>
+            </ul>
+        	</div>
+        </section>
+        <section class="work-item">
+    
+            <input id="work-item-10" type="checkbox" class="toggle-item" />
+            <label for="work-item-10"></label>
+    
+    			<header>
+    				<div class="position">Automotive Mechanic Technician</div>
+    				<div class="company">Renault Garage DMB</div>
+    				<div class="date">
+    				  <span class="startDate">June 2009</span> 
+    					<span class="endDate">- July 2009</span> 
+    				</div>
+    			</header>
+    			
+         	<div class="item" id="work-item">
+            <div class="summary">
+              <p><p>[Le Perray-en-Yvelines, France]</p></p>
+            </div>
+            <ul class="highlights">
+                <li><p>Mechanics</p></li>
+                <li><p>Maintenance</p></li>
+                <li><p>Reparation</p></li>
+            </ul>
+        	</div>
+        </section>
+      </section>
+    </section>
+    <section class="section">
+      <header>
+        <h2 class='section-title'>Education <span class="item-count">(5)</span></h2>
+      </header>
+    
+      <section id="education">
+        <section class="education-item">
+          <header>
+            <div class="header-left">
+              <div class="studyType">
+                [MASTER 2] Expert in
+              </div>
+              <div class="area">
+                Information Technologies
+              </div>
+              <div class="institution">
+                EPITECH - European Institute of Technology
+              </div>
+            </div>
+            <div class="date">
+              <span class="startDate">
+              2015
+              </span>
+              <span class="endDate">
+              - 2018
+              </span>
+            </div>
+          </header>
+    
+    
+          <ul class="courses">
+            <li>EIP - Epitech Innovative Project</li>
+            <li>Artificial intelligence - Evolutionary programming</li>
+            <li>Ethical hacking</li>
+            <li>Network security</li>
+            <li>OpenGL</li>
+            <li>User experience</li>
+          </ul>
+    
+          <div class="item">
+          </div>
+        </section>
+        <section class="education-item">
+          <header>
+            <div class="header-left">
+              <div class="studyType">
+                [MASTER] Master in
+              </div>
+              <div class="area">
+                Computer Science &amp; Engineering
+              </div>
+              <div class="institution">
+                MIT - Manipal Institute of Technology
+              </div>
+            </div>
+            <div class="date">
+              <span class="startDate">
+              2015
+              </span>
+              <span class="endDate">
+              - 2016
+              </span>
+            </div>
+          </header>
+    
+    
+          <ul class="courses">
+            <li>International exchange program</li>
+            <li>10 months in India</li>
+            <li>CSE - Distributed computing systems</li>
+            <li>CSE - Security architecture design and analysis</li>
+            <li>ICT - Theoretical fundations of computer science</li>
+            <li>ICT - Object oriented analysis and design</li>
+            <li>MCA - Advanced data structures</li>
+            <li>English</li>
+            <li>Culture</li>
+          </ul>
+    
+          <div class="item">
+          </div>
+        </section>
+        <section class="education-item">
+          <header>
+            <div class="header-left">
+              <div class="studyType">
+                [B.TECH] Bachelor in
+              </div>
+              <div class="area">
+                Information Technology
+              </div>
+              <div class="institution">
+                EPITECH - European Institute of Technology
+              </div>
+            </div>
+            <div class="date">
+              <span class="startDate">
+              2012
+              </span>
+              <span class="endDate">
+              - 2015
+              </span>
+            </div>
+          </header>
+    
+    
+          <ul class="courses">
+            <li>3 weeks intensive Unix and C lab seminar</li>
+            <li>3 weeks intensive C++ lab seminar</li>
+            <li>Elementary programming</li>
+            <li>Unix advanced system programming</li>
+            <li>x86_64 assembly</li>
+            <li>Hacking and security basics</li>
+            <li>Networking</li>
+            <li>Graphical user interfaces</li>
+            <li>SQL</li>
+            <li>Network administration</li>
+            <li>System administration</li>
+            <li>UML</li>
+            <li>English</li>
+            <li>French</li>
+          </ul>
+    
+          <div class="item">
+          </div>
+        </section>
+        <section class="education-item">
+          <header>
+            <div class="header-left">
+              <div class="studyType">
+                [BAC PRO] Baccalauréat in
+              </div>
+              <div class="area">
+                Automotive Mechanics &amp; Technology
+              </div>
+              <div class="institution">
+                GARAC - National School of Automotive Professions
+              </div>
+            </div>
+            <div class="date">
+              <span class="startDate">
+              2010
+              </span>
+              <span class="endDate">
+              - 2012
+              </span>
+            </div>
+          </header>
+    
+    
+          <ul class="courses">
+            <li>Automotive workshop</li>
+            <li>Automotive technologies</li>
+            <li>Functional and structural analysis</li>
+            <li>Mathematics</li>
+            <li>Physics</li>
+            <li>English</li>
+            <li>French</li>
+          </ul>
+    
+          <div class="item">
+          </div>
+        </section>
+        <section class="education-item">
+          <header>
+            <div class="header-left">
+              <div class="studyType">
+                [BEP] Vocational Qualification in
+              </div>
+              <div class="area">
+                Automotive Mechanics &amp; Technology
+              </div>
+              <div class="institution">
+                GARAC - National School of Automotive Professions
+              </div>
+            </div>
+            <div class="date">
+              <span class="startDate">
+              2008
+              </span>
+              <span class="endDate">
+              - 2010
+              </span>
+            </div>
+          </header>
+    
+    
+          <ul class="courses">
+            <li>Automotive workshop</li>
+            <li>Automotive technologies</li>
+            <li>Functional and structural analysis</li>
+            <li>Mathematics</li>
+            <li>Physics</li>
+            <li>English</li>
+            <li>French</li>
+          </ul>
+    
+          <div class="item">
+          </div>
+        </section>
+      </section>
+    </section>
+    <section class="section">
+      <header>
+        <h2 class='section-title'>Awards</h2>
+      </header>
+      <section id="awards">
+        <section class="award-item">
+            <input id="award-item-0" type="checkbox" class="toggle-item" checked="checked" />
+            <label for="award-item-0"></label>
+    
+          <header>
+            <div class="header-left">
+              <div class="title">
+                &quot;Noise&quot; Contest
+              </div>
+              <div class="awarder">
+                GARAC - National School of Automotive Professions
+              </div>
+            </div>
+            <div class="date">
+              2011
+            </div>
+          </header>
+          
+          <div class="item">
+            <div class="summary">
+              <p><p>An individual school contest between four classrooms, around noise and sound, based on physics, mathematics, french language, natural sciences, and practical measuring processes. 1st price.</p></p>
+            </div>
+          </div>
+        </section>
+      </section>
+    </section>
+    <section class="section margin1">
+      <header>
+        <h2 class='section-title'>Languages</h2>
+      </header>
+      <section id="languages">
+        <div class="display">
+          <h3 class="language">
+            French
+          </h3>
+          <div class="item">
+            <div class="level fluency native speaker">
+              <em>Native speaker</em>
+              <div class="bar"></div>
+            </div>
+          </div>
+        </div>
+        <div class="display">
+          <h3 class="language">
+            English
+          </h3>
+          <div class="item">
+            <div class="level fluency fluent">
+              <em>Fluent</em>
+              <div class="bar"></div>
+            </div>
+          </div>
+        </div>
+        <div class="display">
+          <h3 class="language">
+            Spanish
+          </h3>
+          <div class="item">
+            <div class="level fluency beginner">
+              <em>Beginner</em>
+              <div class="bar"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+    <section class="section margin1">
+      <header>
+        <h2 class='section-title' class='section-title'>Interests</h2>
+      </header>
+      <section id="interests">
+        <div class="item">
+          <h3 class="name">
+            Cooking
+          </h3>
+          <ul class="keywords">
+            <li>Eating</li>
+            <li>Cheese</li>
+            <li>Cheeeese</li>
+            <li>Cheese</li>
+            <li>World cooking</li>
+          </ul>
+        </div>
+        <div class="item">
+          <h3 class="name">
+            Politics
+          </h3>
+          <ul class="keywords">
+            <li>Education</li>
+            <li>Human rights</li>
+            <li>Civical rights</li>
+            <li>Open democracy</li>
+          </ul>
+        </div>
+        <div class="item">
+          <h3 class="name">
+            Technological watch
+          </h3>
+          <ul class="keywords">
+            <li>Open-source world</li>
+            <li>Automotive technologies</li>
+            <li>Inter-planetary distributed systems</li>
+            <li>Human organization tools</li>
+          </ul>
+        </div>
+        <div class="item">
+          <h3 class="name">
+            Human languages
+          </h3>
+          <ul class="keywords">
+            <li>Etymology</li>
+            <li>Cross-cultures dependancies</li>
+            <li>Mathematics</li>
+            <li>Programming languages</li>
+            <li>Street-art</li>
+          </ul>
+        </div>
+        <div class="item">
+          <h3 class="name">
+            Sports
+          </h3>
+          <ul class="keywords">
+            <li>Mountain bike</li>
+            <li>Karting</li>
+            <li>Ski</li>
+            <li>Climb</li>
+          </ul>
+        </div>
+        <div class="item">
+          <h3 class="name">
+            Motor races
+          </h3>
+          <ul class="keywords">
+            <li>24h of Le Mans</li>
+            <li>WRC</li>
+            <li>Endurance</li>
+            <li>Rallye</li>
+            <li>Gaming simulation</li>
+          </ul>
+        </div>
+      </section>
+    </section>
+
+  </body>
 </html>
