@@ -1,0 +1,33 @@
+{
+  "name": "resume-nicolas-chauvin",
+  "version": "1.0.0",
+  "description": "Nicolas Chauvin's curriculum vitæ",
+  "main": "open-resume.js",
+  "dependencies": {
+    "jsonresume-theme-stackoverflow": "^1.4.0",
+    "opn": "^6.0.0",
+    "puppeteer": "^2.1.0",
+    "resume-cli": "^1.2.8"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "npm run regenerate && npm run open",
+    "open": "./open-resume.js",
+    "regenerate": "./generate.sh",
+    "test": "true"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Grenadingue/Grenadingue.github.io.git"
+  },
+  "keywords": [
+    "CV",
+    "Resume"
+  ],
+  "author": "Grenadingue",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Grenadingue/Grenadingue.github.io/issues"
+  },
+  "homepage": "https://github.com/Grenadingue/Grenadingue.github.io#readme"
+}
