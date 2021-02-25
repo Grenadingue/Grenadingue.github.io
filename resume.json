@@ -39,7 +39,7 @@
     {
       "company": "EPITECH Albania",
       "position": "DPRa, Pedagogical Co-Director",
-      "website": "https://epitech.al",
+      "website": "https://www.epitech.al",
       "startDate": "2020-01-06",
       "endDate": "2020-07-30",
       "summary": "[Tirana, Albania] I was responsible of the 1st and 2nd year EPITECH Bachelor students, which represents around 20 persons. I teached, tutored and accompanied the students during their journey.",
@@ -79,7 +79,7 @@
     {
       "company": "Substantiel SAS",
       "position": "Software Developer/Hardware Tester",
-      "website": "http://www.ordissimo.eu/en/about/change-mind",
+      "website": "https://www.ordissimo.com/en/why-ordissimo",
       "startDate": "2016-10-10",
       "endDate": "2017-03-29",
       "summary": "[Montrouge, France] Worked on Ordissimo, a Linux distribution based on Debian, targeting senior users. I've developed a bunch of shell scripts for functionalities unit testing. I started to develop a kind of hardware testing assistant, based on the top of a web server, and supposed to guide a real human through the process of hardware testing.",
@@ -130,7 +130,7 @@
     {
       "company": "Realtime Art Studio",
       "position": "Software Developer",
-      "website": "http://www.realtime-art.net",
+      "website": "https://realtime-art.com/",
       "startDate": "2014-09-01",
       "endDate": "2015-01-01",
       "summary": "[Paris 11, France] Follow-up for the \"Playy.tv\" project. My main goal was to architect and develop a software controller able to receive and execute remote instructions from internet and harware buttons. Restarted software from scratch for full OS portability.",
@@ -152,7 +152,7 @@
     {
       "company": "Realtime Art Studio",
       "position": "Software Developer",
-      "website": "http://www.realtime-art.net",
+      "website": "https://realtime-art.com/",
       "startDate": "2013-09-01",
       "endDate": "2013-12-01",
       "summary": "[Paris 11, France] I worked on a project named \"Playy.tv\". My main goal was to architect and develop a software controller able to receive and execute remote instructions from internet and harware buttons.",
