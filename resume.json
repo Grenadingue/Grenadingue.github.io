@@ -449,6 +449,14 @@
   ],
   "interests": [
     {
+      "name": "Self hosting at home",
+      "keywords": [
+        "Maintaining my own hardware",
+        "Maintaining my own services",
+        "Offering FLOSS services to family & friends"
+      ]
+    },
+    {
       "name": "Cooking",
       "keywords": [
         "Eating",
@@ -470,7 +478,7 @@
     {
       "name": "Technological watch",
       "keywords": [
-        "Open-source world",
+        "FLOSS world",
         "Automotive technologies",
         "Inter-planetary distributed systems",
         "Human organization tools"
@@ -489,20 +497,10 @@
     {
       "name": "Sports",
       "keywords": [
-        "Mountain bike",
+        "Biking",
         "Karting",
-        "Ski",
-        "Climb"
-      ]
-    },
-    {
-      "name": "Motor races",
-      "keywords": [
-        "24h of Le Mans",
-        "WRC",
-        "Endurance",
-        "Rallye",
-        "Gaming simulation"
+        "Skiing",
+        "Climbing"
       ]
     }
   ],
