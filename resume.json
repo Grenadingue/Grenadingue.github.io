@@ -340,14 +340,18 @@
       "name": "Software Developement",
       "level": "",
       "keywords": [
+        "RTFM",
         "C",
         "C++",
         "Java",
+        "Dart",
+        "Flutter",
         "Qt",
         "QML",
         "SDL",
         "Swift",
         "Node.js",
+        "Javascript",
         "Python",
         "gdb",
         "valgrind",
@@ -357,19 +361,23 @@
         "Git",
         "Networking",
         "Security",
-        "GUI"
+        "GUI",
+        "Html/Css"
       ]
     },
     {
       "name": "System/Network Administration",
       "level": "",
       "keywords": [
+        "RTFM",
         "Linux",
         "Unix",
         "Windows",
         "Mac OS X",
         "Shell scripting",
         "Docker",
+        "Docker compose",
+        "Systemd",
         "Web servers",
         "Web services",
         "Cloud",
@@ -385,10 +393,12 @@
       "name": "Software Architecture",
       "level": "",
       "keywords": [
+        "RTFM",
         "Patterns design",
         "From scratch",
         "From existing",
         "MVC",
+        "MVP",
         "VIPER",
         "Micro-kernel",
         "UML",
@@ -410,6 +420,9 @@
       "name": "Automotive Mechanics",
       "level": "",
       "keywords": [
+        "OBD-II Applicative Protocol",
+        "CAN Applicative Layer",
+        "KLine Applicative Layer",
         "Failure research",
         "Maintenance",
         "Restauration",
@@ -417,17 +430,6 @@
         "Petrol/Diesel engines",
         "Electrical components",
         "OBD Diagnotic tools"
-      ]
-    },
-    {
-      "name": "Web Developement",
-      "level": "",
-      "keywords": [
-        "Node.js",
-        "Php",
-        "Javascript",
-        "Html",
-        "Css"
       ]
     }
   ],
