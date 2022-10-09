@@ -4,10 +4,10 @@
   "description": "Nicolas Chauvin's curriculum vitæ",
   "main": "open-resume.js",
   "dependencies": {
-    "jsonresume-theme-stackoverflow": "^1.4.0",
+    "jsonresume-theme-stackoverflow": "^2.0.0",
     "opn": "^6.0.0",
-    "puppeteer": "^2.1.0",
-    "resume-cli": "^1.2.8"
+    "puppeteer": "^18.2.1",
+    "resume-cli": "^3.0.7"
   },
   "devDependencies": {},
   "scripts": {
