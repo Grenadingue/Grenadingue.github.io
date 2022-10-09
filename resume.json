@@ -2,7 +2,7 @@
   "basics": {
     "name": "Nicolas Chauvin",
     "label": "Computer Engineer & Polyvalent Technician",
-    "picture": "images/me.jpg",
+    "image": "images/me.jpg",
     "email": "nicolas-public@chauv.in",
     "phone": "",
     "website": "",
@@ -32,7 +32,7 @@
   },
   "work": [
     {
-      "company": "EPITECH Albania",
+      "name": "EPITECH Albania",
       "position": "DPRa, Pedagogical Co-Director",
       "website": "https://www.epitech.al",
       "startDate": "2020-01-06",
@@ -48,7 +48,7 @@
       ]
     },
     {
-      "company": "Munic (Formerly Mobile Devices Ingénierie)",
+      "name": "Munic (Formerly Mobile Devices Ingénierie)",
       "position": "Embedded Software Developer",
       "website": "https://www.munic.io/about-us/",
       "startDate": "2017-07-11",
@@ -72,7 +72,7 @@
       ]
     },
     {
-      "company": "Substantiel SAS",
+      "name": "Substantiel SAS",
       "position": "Software Developer/Hardware Tester",
       "website": "https://www.ordissimo.com/en/why-ordissimo",
       "startDate": "2016-10-10",
@@ -88,7 +88,7 @@
       ]
     },
     {
-      "company": "SAM-Solution",
+      "name": "SAM-Solution",
       "position": "Lead Developer",
       "website": "https://eip.epitech.eu/2017/samsolution",
       "startDate": "2015-02-01",
@@ -105,7 +105,7 @@
       ]
     },
     {
-      "company": "Creatiwity",
+      "name": "Creatiwity",
       "position": "Software Developer",
       "website": "https://creatiwity.net/portfolio/detail/23-monalbumphoto",
       "startDate": "2015-04-01",
@@ -123,7 +123,7 @@
       ]
     },
     {
-      "company": "Realtime Art Studio",
+      "name": "Realtime Art Studio",
       "position": "Software Developer",
       "website": "https://realtime-art.com/",
       "startDate": "2014-09-01",
@@ -145,7 +145,7 @@
       ]
     },
     {
-      "company": "Realtime Art Studio",
+      "name": "Realtime Art Studio",
       "position": "Software Developer",
       "website": "https://realtime-art.com/",
       "startDate": "2013-09-01",
@@ -164,7 +164,7 @@
       ]
     },
     {
-      "company": "0-one",
+      "name": "0-one",
       "position": "Automotive Mechanic Technician",
       "website": "https://www.0one.fr/",
       "startDate": "2011-06-01",
@@ -183,7 +183,7 @@
       ]
     },
     {
-      "company": "Garage de Maison Blanche",
+      "name": "Garage de Maison Blanche",
       "position": "Automotive Mechanic Technician",
       "website": "",
       "startDate": "2011-03-01",
@@ -198,7 +198,7 @@
       ]
     },
     {
-      "company": "Toyota Auto-Arita",
+      "name": "Toyota Auto-Arita",
       "position": "Automotive Mechanic Technician",
       "website": "https://www.autoarita.fi/",
       "startDate": "2011-02-01",
@@ -213,7 +213,7 @@
       ]
     },
     {
-      "company": "Renault Garage DMB",
+      "name": "Renault Garage DMB",
       "position": "Automotive Mechanic Technician",
       "website": "",
       "startDate": "2009-06-01",
