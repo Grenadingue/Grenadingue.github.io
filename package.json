@@ -13,7 +13,7 @@
   "scripts": {
     "start": "npm run regenerate && npm run open",
     "open": "./open-resume.js",
-    "regenerate": "./generate.sh",
+    "regenerate": "./generate.sh && ./patch-html.sh",
     "test": "true"
   },
   "repository": {
