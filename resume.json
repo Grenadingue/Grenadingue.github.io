@@ -37,7 +37,8 @@
       "website": "https://www.epitech.al",
       "startDate": "2020-01-06",
       "endDate": "2020-07-30",
-      "summary": "[Tirana, Albania] I was responsible of the 1st and 2nd year EPITECH Bachelor students, which represents around 20 persons. I teached, tutored and accompanied the students during their journey.",
+      "location": "Tirana, Albania",
+      "summary": "I was responsible of the 1st and 2nd year EPITECH Bachelor students, which represents around 20 persons. I teached, tutored and accompanied the students during their journey.",
       "highlights": [
         "Pedagogical Co-Director",
         "Pedagogical Assistant",
@@ -53,7 +54,8 @@
       "website": "https://www.munic.io/about-us/",
       "startDate": "2017-07-11",
       "endDate": "2019-11-15",
-      "summary": "[Villejuif, France] I worked on the applicative level of the embedded devices sold by the company. My work on the devices went from userland drivers, to data processing, with the goal of handling OBD-II communications for light/heavy automotive vehicles. I also worked on the last version of the device's emulator, with a goal of easier development, and better software testing. Moreover, I also had been responsible of leading an internal project, during six months, with a team of around 10 interns. During this time I established a one month formation so that the trainess could acquire all the needed technical and organizational skills needed. This formation has then been used widely accross the compnay for newcomers. The project was made up of one mobile application, one website and some cloud services.",
+      "location": "Villejuif, France",
+      "summary": "I worked on the applicative level of the embedded devices sold by the company. My work on the devices went from userland drivers, to data processing, with the goal of handling OBD-II communications for light/heavy automotive vehicles. I also worked on the last version of the device's emulator, with a goal of easier development, and better software testing. Moreover, I also had been responsible of leading an internal project, during six months, with a team of around 10 interns. During this time I established a one month formation so that the trainess could acquire all the needed technical and organizational skills needed. This formation has then been used widely accross the compnay for newcomers. The project was made up of one mobile application, one website and some cloud services.",
       "highlights": [
         "Embedded Software Developer",
         "Project Leader",
@@ -77,7 +79,8 @@
       "website": "https://www.ordissimo.com/en/why-ordissimo",
       "startDate": "2016-10-10",
       "endDate": "2017-03-29",
-      "summary": "[Montrouge, France] Worked on Ordissimo, a Linux distribution based on Debian, targeting senior users. I've developed a bunch of shell scripts for functionalities unit testing. I started to develop a kind of hardware testing assistant, based on the top of a web server, and supposed to guide a real human through the process of hardware testing.",
+      "location": "Montrouge, France",
+      "summary": "Worked on Ordissimo, a Linux distribution based on Debian, targeting senior users. I've developed a bunch of shell scripts for functionalities unit testing. I started to develop a kind of hardware testing assistant, based on the top of a web server, and supposed to guide a real human through the process of hardware testing.",
       "highlights": [
         "Software/Hardware tester",
         "Software developer",
@@ -93,7 +96,8 @@
       "website": "https://eip.epitech.eu/2017/samsolution",
       "startDate": "2015-02-01",
       "endDate": "2017-02-01",
-      "summary": "[Paris, France, and Worldwide] Lead developer, member of the human ressources team, technical referent, and software developer. I was a member of a nine students group for a project called the Epitech Innovative Project; the final school project of my Master degree. SAM-Solution is a management tool for IT-infrastructures, allowing to centralize system and software migrations, as well as backup and restoration of user data.",
+      "location": "Paris, France, and Worldwide",
+      "summary": "Lead developer, member of the human ressources team, technical referent, and software developer. I was a member of a nine students group for a project called the Epitech Innovative Project; the final school project of my Master degree. SAM-Solution is a management tool for IT-infrastructures, allowing to centralize system and software migrations, as well as backup and restoration of user data.",
       "highlights": [
         "Lead developer",
         "Manager in HR team",
@@ -110,7 +114,8 @@
       "website": "https://creatiwity.net/portfolio/detail/23-monalbumphoto",
       "startDate": "2015-04-01",
       "endDate": "2015-07-15",
-      "summary": "[Paris 12, France] I worked on the \"Mon album photo\" iPad application, in a team of four people, including software architects, developers, and a designer. The main goal was to make the first version of the application; its concept is to import images from multiple sources and to easily compile them on a photo album, and many other mediums.",
+      "location": "Paris 12, France",
+      "summary": "I worked on the \"Mon album photo\" iPad application, in a team of four people, including software architects, developers, and a designer. The main goal was to make the first version of the application; its concept is to import images from multiple sources and to easily compile them on a photo album, and many other mediums.",
       "highlights": [
         "Mobile developer",
         "Swift",
@@ -128,7 +133,8 @@
       "website": "https://realtime-art.com/",
       "startDate": "2014-09-01",
       "endDate": "2015-01-01",
-      "summary": "[Paris 11, France] Follow-up for the \"Playy.tv\" project. My main goal was to architect and develop a software controller able to receive and execute remote instructions from internet and harware buttons. Restarted software from scratch for full OS portability.",
+      "location": "Paris 11, France",
+      "summary": "Follow-up for the \"Playy.tv\" project. My main goal was to architect and develop a software controller able to receive and execute remote instructions from internet and harware buttons. Restarted software from scratch for full OS portability.",
       "highlights": [
         "Software architect",
         "Software developer",
@@ -150,7 +156,8 @@
       "website": "https://realtime-art.com/",
       "startDate": "2013-09-01",
       "endDate": "2013-12-01",
-      "summary": "[Paris 11, France] I worked on a project named \"Playy.tv\". My main goal was to architect and develop a software controller able to receive and execute remote instructions from internet and harware buttons.",
+      "location": "Paris 11, France",
+      "summary": "I worked on a project named \"Playy.tv\". My main goal was to architect and develop a software controller able to receive and execute remote instructions from internet and harware buttons.",
       "highlights": [
         "Software architect",
         "Software developer",
@@ -169,7 +176,7 @@
       "website": "https://www.0one.fr/",
       "startDate": "2011-06-01",
       "endDate": "2012-07-30",
-      "summary": "[Le Perray-en-Yvelines, France]",
+      "location": "Le Perray-en-Yvelines, France",
       "highlights": [
         "Mechanics",
         "Electronics",
@@ -188,7 +195,7 @@
       "website": "",
       "startDate": "2011-03-01",
       "endDate": "2011-04-01",
-      "summary": "[Les Essarts-le-roi, France]",
+      "location": "Les Essarts-le-roi, France",
       "highlights": [
         "Mechanics",
         "English classic/Usual cars",
@@ -203,7 +210,7 @@
       "website": "https://www.autoarita.fi/",
       "startDate": "2011-02-01",
       "endDate": "2011-03-01",
-      "summary": "[Järvenpää, Finland]",
+      "location": "Järvenpää, Finland",
       "highlights": [
         "Mechanics",
         "Electronics",
@@ -218,7 +225,7 @@
       "website": "",
       "startDate": "2009-06-01",
       "endDate": "2009-07-01",
-      "summary": "[Le Perray-en-Yvelines, France]",
+      "location": "Le Perray-en-Yvelines, France",
       "highlights": [
         "Mechanics",
         "Maintenance",
