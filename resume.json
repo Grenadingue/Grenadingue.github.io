@@ -447,47 +447,46 @@
   ],
   "interests": [
     {
-      "name": "Self hosting at home",
+      "name": "Home self hosting",
       "keywords": [
-        "Maintaining my own hardware",
-        "Maintaining my own services",
-        "Offering FLOSS services to family & friends"
+        "Maintaining hardware",
+        "Maintaining services",
+        "Offering services"
       ]
     },
     {
       "name": "Cooking",
       "keywords": [
-        "Eating",
-        "Cheese",
-        "Cheeeese",
-        "Cheese",
-        "World cooking"
+        "World cooking",
+        "Experiences",
+        "Carbon footprint awareness"
       ]
     },
     {
       "name": "Politics",
       "keywords": [
+        "Real democracy",
         "Education",
         "Human rights",
-        "Civical rights",
-        "Open democracy"
+        "Civical rights"
       ]
     },
     {
       "name": "Technological watch",
       "keywords": [
+        "Physics",
+        "Astrophysics",
+        "Energies",
         "FLOSS world",
-        "Automotive technologies",
-        "Inter-planetary distributed systems",
-        "Human organization tools"
+        "Distributed systems",
+        "Human organization tools",
+        "Automotive technologies"
       ]
     },
     {
       "name": "Human languages",
       "keywords": [
         "Etymology",
-        "Cross-cultures dependancies",
-        "Mathematics",
         "Programming languages",
         "Street-art"
       ]
@@ -495,10 +494,19 @@
     {
       "name": "Sports",
       "keywords": [
+        "Surfing",
         "Biking",
         "Karting",
         "Skiing",
         "Climbing"
+      ]
+    },
+    {
+      "name": "Music",
+      "keywords": [
+        "Piano",
+        "Music theory",
+        "Numeric modular synthesis"
       ]
     }
   ],
