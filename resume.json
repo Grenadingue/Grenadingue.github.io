@@ -349,78 +349,158 @@
   "publications": [],
   "skills": [
     {
+      "name": "Transversality",
+      "level": "Master",
+      "keywords": [
+        "Curiosity",
+        "Following passions"
+      ]
+    },
+    {
+      "name": "Soft skills",
+      "level": "Advanced",
+      "keywords": [
+        "Communication",
+        "Listening",
+        "Empathy",
+        "Creativity",
+        "Leadership",
+        "Team work",
+        "Remote working"
+      ]
+    },
+    {
       "name": "Software Developement",
-      "level": "",
+      "level": "Master",
       "keywords": [
         "RTFM",
         "C",
         "C++",
         "Java",
+        "C#",
+        ".NET",
         "Dart",
         "Flutter",
         "Qt",
-        "QML",
-        "SDL",
-        "Swift",
-        "Node.js",
-        "Javascript",
         "Python",
         "gdb",
         "valgrind",
-        "SQL",
-        "MongoDB",
-        "Bash",
         "Git",
-        "Networking",
-        "Security",
-        "GUI",
-        "Html/Css"
+        "Network Programming",
+        "Inter-process Communication",
+        "Security"
       ]
     },
     {
-      "name": "System/Network Administration",
-      "level": "",
+      "name": "DevOps & Sys/Net Admin",
+      "level": "Master",
       "keywords": [
         "RTFM",
         "Linux",
-        "Unix",
+        "Unix*",
         "Windows",
         "Mac OS X",
-        "Shell scripting",
+        "Bash",
+        "Powershell",
+        "CI",
+        "CD",
+        "Pipelines",
         "Docker",
         "Docker compose",
         "Systemd",
         "Web servers",
         "Web services",
-        "Cloud",
+        "File storage",
+        "Mail",
         "Torrent",
         "Databases",
         "DNS",
         "SSH",
-        "Git",
+        "Gitlab",
         "Security"
       ]
     },
     {
+      "name": "Mobile & Embedded Development",
+      "level": "Advanced",
+      "keywords": [
+        "RTFM",
+        "Android",
+        "iOS",
+        "Linux based",
+        "Emulators",
+        "Cross-compilation",
+        "Resources usage awareness",
+        "C",
+        "C++",
+        "Java",
+        "Swift",
+        "Dart",
+        "Flutter"
+      ]
+    },
+    {
+      "name": "Web Developement",
+      "level": "Advanced",
+      "keywords": [
+        "RTFM",
+        "C#",
+        ".NET",
+        "Dart",
+        "Flutter",
+        "Javascript",
+        "Typescript",
+        "Node.js",
+        "Python",
+        "FastAPI",
+        "Html/Css",
+        "Angular",
+        "*SQL",
+        "MongoDB"
+      ]
+    },
+    {
+      "name": "UI/UX",
+      "level": "Advanced",
+      "keywords": [
+        "UI/UX Design",
+        "Web & Mobile",
+        "Flutter",
+        "Qt",
+        "QML",
+        "SDL",
+        "Html/Css",
+        "Angular"
+      ]
+    },
+    {
       "name": "Software Architecture",
-      "level": "",
+      "level": "Advanced",
       "keywords": [
         "RTFM",
         "Patterns design",
-        "From scratch",
         "From existing",
+        "From scratch",
+        "UML",
         "MVC",
         "MVP",
         "VIPER",
-        "Micro-kernel",
-        "UML",
-        "Class diagrams",
-        "Sequence diagrams"
+        "Micro-kernel"
+      ]
+    },
+    {
+      "name": "Automotive IT",
+      "level": "Advanced",
+      "keywords": [
+        "OBD-II Applicative Protocol",
+        "CAN-BUS Applicative Layer",
+        "ISO-14230 Applicative Layer",
+        "ISO-9141 Applicative Layer"
       ]
     },
     {
       "name": "Electronics",
-      "level": "",
+      "level": "Beginner",
       "keywords": [
         "Tin welding",
         "Circuit diagram reading/writting",
@@ -430,11 +510,8 @@
     },
     {
       "name": "Automotive Mechanics",
-      "level": "",
+      "level": "Intermediate",
       "keywords": [
-        "OBD-II Applicative Protocol",
-        "CAN Applicative Layer",
-        "KLine Applicative Layer",
         "Failure research",
         "Maintenance",
         "Restauration",
