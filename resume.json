@@ -27,6 +27,20 @@
   },
   "work": [
     {
+      "name": "Klee Group",
+      "position": "Design & Development Engineer",
+      "website": "https://www.kleegroup.com/en/home",
+      "startDate": "2021-09-06",
+      "location": "Le Plessis-Robinson, France",
+      "summary": "3 projects | 1st one as software developer to build & maintain CRM plugins/interfaces: C#, .NET Framework, Azure Functions, TFS Pipelines | 2nd project as software developer for maintenance on a legacy IT infra management solution: C#, .NET Framework, MSSQL, Access VBA | 3rd project as fullstack web developer to build a digital interim solution: C#, .NET, EF, Angular, MSSQL",
+      "highlights": [
+        "C#",
+        ".NET",
+        "Angular",
+        "Azure Functions"
+      ]
+    },
+    {
       "name": "EPITECH Albania",
       "position": "DPRa, Pedagogical Co-Director",
       "website": "https://www.epitech.al",
